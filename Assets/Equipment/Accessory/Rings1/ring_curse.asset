@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 219bb963781ef3e4093a73e2957bc3b3, type: 3}
+  m_Name: ring_curse
+  m_EditorClassIdentifier: 
+  consumablename: "\u9ED2\u6C34\u6676\u306E\u6307\u8F2A "
+  Sprite: {fileID: -3023326895916273931, guid: fef612d815dc0d44fb707133ae2c91ca, type: 3}
+  desc: "\u546A\u3044\u8010\u6027\u304C\u4E0A\u6607\u3059\u308B\r"
+  flavor: 

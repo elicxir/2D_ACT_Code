@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83f9c189b5a3614faf3ee342c0b2cad, type: 3}
+  m_Name: ClockTower
+  m_EditorClassIdentifier: 
+  AreaName: "\u81F3\u5929\u6642\u8A08\u5854"
+  AreaColor: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
+  SectionDatas:
+  - Extent:
+      x: 34
+      y: 20
+      width: 1
+      height: 1
+    isHidden: 0
+  - Extent:
+      x: 38
+      y: 20
+      width: 1
+      height: 1
+    isHidden: 0
+  - Extent:
+      x: 35
+      y: 20
+      width: 3
+      height: 1
+    isHidden: 0
+  - Extent:
+      x: 35
+      y: 21
+      width: 3
+      height: 6
+    isHidden: 0
+  - Extent:
+      x: 33
+      y: 25
+      width: 2
+      height: 3
+    isHidden: 0
+  - Extent:
+      x: 38
+      y: 24
+      width: 2
+      height: 3
+    isHidden: 0
+  - Extent:
+      x: 38
+      y: 22
+      width: 2
+      height: 2
+    isHidden: 0
+  - Extent:
+      x: 33
+      y: 23
+      width: 2
+      height: 2
+    isHidden: 0
+  - Extent:
+      x: 35
+      y: 27
+      width: 3
+      height: 3
+    isHidden: 0
+  - Extent:
+      x: 36
+      y: 30
+      width: 1
+      height: 4
+    isHidden: 0
+  - Extent:
+      x: 38
+      y: 27
+      width: 2
+      height: 1
+    isHidden: 0
+  - Extent:
+      x: 38
+      y: 28
+      width: 2
+      height: 2
+    isHidden: 0
+  - Extent:
+      x: 33
+      y: 28
+      width: 2
+      height: 5
+    isHidden: 0
+  - Extent:
+      x: 36
+      y: 34
+      width: 1
+      height: 1
+    isHidden: 0
+  - Extent:
+      x: 37
+      y: 34
+      width: 1
+      height: 1
+    isHidden: 0
+  - Extent:
+      x: 35
+      y: 35
+      width: 3
+      height: 2
+    isHidden: 0

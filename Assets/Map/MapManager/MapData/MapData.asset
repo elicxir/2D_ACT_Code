@@ -1,0 +1,5279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b988c4211934d54badd39fd178fdef4, type: 3}
+  m_Name: MapData
+  m_EditorClassIdentifier: 
+  AreaData:
+  - {fileID: 11400000, guid: e1dfdf14fba30d0499e32921f66481f2, type: 2}
+  - {fileID: 11400000, guid: 24e4de3212bd6794ba3ea5f5ec63019f, type: 2}
+  - {fileID: 11400000, guid: d4c670df2b1e00b448179d4b3a7e594d, type: 2}
+  - {fileID: 11400000, guid: 6e491b8a8f90637459190ae9fbaaf85c, type: 2}
+  - {fileID: 11400000, guid: 439f87435013c1044a525b4d7a2e2eb1, type: 2}
+  - {fileID: 11400000, guid: d03740308d059e54eb0d1187b14ca2dc, type: 2}
+  GridData:
+  - AreaIndex: 0
+    SectionIndex: 0
+    Pos: {x: 11, y: 11}
+  - AreaIndex: 0
+    SectionIndex: 0
+    Pos: {x: 12, y: 11}
+  - AreaIndex: 0
+    SectionIndex: 0
+    Pos: {x: 13, y: 11}
+  - AreaIndex: 0
+    SectionIndex: 1
+    Pos: {x: 9, y: 11}
+  - AreaIndex: 0
+    SectionIndex: 1
+    Pos: {x: 10, y: 11}
+  - AreaIndex: 0
+    SectionIndex: 2
+    Pos: {x: 7, y: 10}
+  - AreaIndex: 0
+    SectionIndex: 2
+    Pos: {x: 7, y: 11}
+  - AreaIndex: 0
+    SectionIndex: 2
+    Pos: {x: 8, y: 10}
+  - AreaIndex: 0
+    SectionIndex: 2
+    Pos: {x: 8, y: 11}
+  - AreaIndex: 0
+    SectionIndex: 3
+    Pos: {x: 7, y: 9}
+  - AreaIndex: 0
+    SectionIndex: 3
+    Pos: {x: 8, y: 9}
+  - AreaIndex: 0
+    SectionIndex: 4
+    Pos: {x: 6, y: 9}
+  - AreaIndex: 0
+    SectionIndex: 5
+    Pos: {x: 9, y: 8}
+  - AreaIndex: 0
+    SectionIndex: 5
+    Pos: {x: 9, y: 9}
+  - AreaIndex: 0
+    SectionIndex: 5
+    Pos: {x: 10, y: 8}
+  - AreaIndex: 0
+    SectionIndex: 5
+    Pos: {x: 10, y: 9}
+  - AreaIndex: 0
+    SectionIndex: 5
+    Pos: {x: 11, y: 8}
+  - AreaIndex: 0
+    SectionIndex: 5
+    Pos: {x: 11, y: 9}
+  - AreaIndex: 0
+    SectionIndex: 6
+    Pos: {x: 12, y: 9}
+  - AreaIndex: 0
+    SectionIndex: 6
+    Pos: {x: 13, y: 9}
+  - AreaIndex: 0
+    SectionIndex: 7
+    Pos: {x: 14, y: 9}
+  - AreaIndex: 0
+    SectionIndex: 7
+    Pos: {x: 14, y: 10}
+  - AreaIndex: 0
+    SectionIndex: 8
+    Pos: {x: 13, y: 10}
+  - AreaIndex: 0
+    SectionIndex: 9
+    Pos: {x: 15, y: 10}
+  - AreaIndex: 0
+    SectionIndex: 9
+    Pos: {x: 16, y: 10}
+  - AreaIndex: 0
+    SectionIndex: 10
+    Pos: {x: 17, y: 10}
+  - AreaIndex: 0
+    SectionIndex: 10
+    Pos: {x: 17, y: 11}
+  - AreaIndex: 1
+    SectionIndex: 0
+    Pos: {x: 11, y: 15}
+  - AreaIndex: 1
+    SectionIndex: 1
+    Pos: {x: 12, y: 12}
+  - AreaIndex: 1
+    SectionIndex: 1
+    Pos: {x: 12, y: 13}
+  - AreaIndex: 1
+    SectionIndex: 1
+    Pos: {x: 12, y: 14}
+  - AreaIndex: 1
+    SectionIndex: 1
+    Pos: {x: 12, y: 15}
+  - AreaIndex: 1
+    SectionIndex: 1
+    Pos: {x: 12, y: 16}
+  - AreaIndex: 1
+    SectionIndex: 1
+    Pos: {x: 12, y: 17}
+  - AreaIndex: 1
+    SectionIndex: 2
+    Pos: {x: 11, y: 14}
+  - AreaIndex: 1
+    SectionIndex: 3
+    Pos: {x: 11, y: 13}
+  - AreaIndex: 1
+    SectionIndex: 4
+    Pos: {x: 10, y: 13}
+  - AreaIndex: 1
+    SectionIndex: 4
+    Pos: {x: 10, y: 14}
+  - AreaIndex: 1
+    SectionIndex: 4
+    Pos: {x: 10, y: 15}
+  - AreaIndex: 1
+    SectionIndex: 5
+    Pos: {x: 11, y: 17}
+  - AreaIndex: 2
+    SectionIndex: 0
+    Pos: {x: 19, y: 12}
+  - AreaIndex: 2
+    SectionIndex: 0
+    Pos: {x: 20, y: 12}
+  - AreaIndex: 2
+    SectionIndex: 1
+    Pos: {x: 22, y: 12}
+  - AreaIndex: 2
+    SectionIndex: 1
+    Pos: {x: 23, y: 12}
+  - AreaIndex: 2
+    SectionIndex: 2
+    Pos: {x: 21, y: 12}
+  - AreaIndex: 2
+    SectionIndex: 3
+    Pos: {x: 18, y: 11}
+  - AreaIndex: 2
+    SectionIndex: 3
+    Pos: {x: 19, y: 11}
+  - AreaIndex: 2
+    SectionIndex: 4
+    Pos: {x: 26, y: 15}
+  - AreaIndex: 2
+    SectionIndex: 5
+    Pos: {x: 27, y: 15}
+  - AreaIndex: 2
+    SectionIndex: 6
+    Pos: {x: 25, y: 14}
+  - AreaIndex: 2
+    SectionIndex: 6
+    Pos: {x: 25, y: 15}
+  - AreaIndex: 2
+    SectionIndex: 7
+    Pos: {x: 23, y: 14}
+  - AreaIndex: 2
+    SectionIndex: 7
+    Pos: {x: 24, y: 14}
+  - AreaIndex: 2
+    SectionIndex: 8
+    Pos: {x: 23, y: 13}
+  - AreaIndex: 2
+    SectionIndex: 9
+    Pos: {x: 24, y: 15}
+  - AreaIndex: 2
+    SectionIndex: 10
+    Pos: {x: 24, y: 12}
+  - AreaIndex: 2
+    SectionIndex: 10
+    Pos: {x: 24, y: 13}
+  - AreaIndex: 2
+    SectionIndex: 11
+    Pos: {x: 20, y: 10}
+  - AreaIndex: 2
+    SectionIndex: 11
+    Pos: {x: 20, y: 11}
+  - AreaIndex: 2
+    SectionIndex: 12
+    Pos: {x: 18, y: 9}
+  - AreaIndex: 2
+    SectionIndex: 13
+    Pos: {x: 19, y: 9}
+  - AreaIndex: 2
+    SectionIndex: 13
+    Pos: {x: 19, y: 10}
+  - AreaIndex: 2
+    SectionIndex: 14
+    Pos: {x: 20, y: 9}
+  - AreaIndex: 2
+    SectionIndex: 14
+    Pos: {x: 21, y: 9}
+  - AreaIndex: 2
+    SectionIndex: 14
+    Pos: {x: 22, y: 9}
+  - AreaIndex: 2
+    SectionIndex: 15
+    Pos: {x: 22, y: 10}
+  - AreaIndex: 2
+    SectionIndex: 15
+    Pos: {x: 23, y: 10}
+  - AreaIndex: 2
+    SectionIndex: 15
+    Pos: {x: 24, y: 10}
+  - AreaIndex: 2
+    SectionIndex: 16
+    Pos: {x: 22, y: 11}
+  - AreaIndex: 2
+    SectionIndex: 17
+    Pos: {x: 25, y: 12}
+  - AreaIndex: 2
+    SectionIndex: 17
+    Pos: {x: 26, y: 12}
+  - AreaIndex: 2
+    SectionIndex: 18
+    Pos: {x: 25, y: 13}
+  - AreaIndex: 2
+    SectionIndex: 18
+    Pos: {x: 26, y: 13}
+  - AreaIndex: 2
+    SectionIndex: 19
+    Pos: {x: 26, y: 10}
+  - AreaIndex: 2
+    SectionIndex: 19
+    Pos: {x: 26, y: 11}
+  - AreaIndex: 2
+    SectionIndex: 20
+    Pos: {x: 25, y: 11}
+  - AreaIndex: 2
+    SectionIndex: 21
+    Pos: {x: 27, y: 13}
+  - AreaIndex: 2
+    SectionIndex: 21
+    Pos: {x: 28, y: 13}
+  - AreaIndex: 2
+    SectionIndex: 21
+    Pos: {x: 29, y: 13}
+  - AreaIndex: 2
+    SectionIndex: 22
+    Pos: {x: 29, y: 14}
+  - AreaIndex: 2
+    SectionIndex: 22
+    Pos: {x: 30, y: 14}
+  - AreaIndex: 2
+    SectionIndex: 23
+    Pos: {x: 25, y: 9}
+  - AreaIndex: 2
+    SectionIndex: 23
+    Pos: {x: 25, y: 10}
+  - AreaIndex: 2
+    SectionIndex: 24
+    Pos: {x: 26, y: 9}
+  - AreaIndex: 2
+    SectionIndex: 24
+    Pos: {x: 27, y: 9}
+  - AreaIndex: 2
+    SectionIndex: 24
+    Pos: {x: 28, y: 9}
+  - AreaIndex: 2
+    SectionIndex: 25
+    Pos: {x: 24, y: 8}
+  - AreaIndex: 2
+    SectionIndex: 25
+    Pos: {x: 25, y: 8}
+  - AreaIndex: 3
+    SectionIndex: 0
+    Pos: {x: 34, y: 20}
+  - AreaIndex: 3
+    SectionIndex: 1
+    Pos: {x: 38, y: 20}
+  - AreaIndex: 3
+    SectionIndex: 2
+    Pos: {x: 35, y: 20}
+  - AreaIndex: 3
+    SectionIndex: 2
+    Pos: {x: 36, y: 20}
+  - AreaIndex: 3
+    SectionIndex: 2
+    Pos: {x: 37, y: 20}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 35, y: 21}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 35, y: 22}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 35, y: 23}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 35, y: 24}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 35, y: 25}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 35, y: 26}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 36, y: 21}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 36, y: 22}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 36, y: 23}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 36, y: 24}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 36, y: 25}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 36, y: 26}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 37, y: 21}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 37, y: 22}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 37, y: 23}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 37, y: 24}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 37, y: 25}
+  - AreaIndex: 3
+    SectionIndex: 3
+    Pos: {x: 37, y: 26}
+  - AreaIndex: 3
+    SectionIndex: 4
+    Pos: {x: 33, y: 25}
+  - AreaIndex: 3
+    SectionIndex: 4
+    Pos: {x: 33, y: 26}
+  - AreaIndex: 3
+    SectionIndex: 4
+    Pos: {x: 33, y: 27}
+  - AreaIndex: 3
+    SectionIndex: 4
+    Pos: {x: 34, y: 25}
+  - AreaIndex: 3
+    SectionIndex: 4
+    Pos: {x: 34, y: 26}
+  - AreaIndex: 3
+    SectionIndex: 4
+    Pos: {x: 34, y: 27}
+  - AreaIndex: 3
+    SectionIndex: 5
+    Pos: {x: 38, y: 24}
+  - AreaIndex: 3
+    SectionIndex: 5
+    Pos: {x: 38, y: 25}
+  - AreaIndex: 3
+    SectionIndex: 5
+    Pos: {x: 38, y: 26}
+  - AreaIndex: 3
+    SectionIndex: 5
+    Pos: {x: 39, y: 24}
+  - AreaIndex: 3
+    SectionIndex: 5
+    Pos: {x: 39, y: 25}
+  - AreaIndex: 3
+    SectionIndex: 5
+    Pos: {x: 39, y: 26}
+  - AreaIndex: 3
+    SectionIndex: 6
+    Pos: {x: 38, y: 22}
+  - AreaIndex: 3
+    SectionIndex: 6
+    Pos: {x: 38, y: 23}
+  - AreaIndex: 3
+    SectionIndex: 6
+    Pos: {x: 39, y: 22}
+  - AreaIndex: 3
+    SectionIndex: 6
+    Pos: {x: 39, y: 23}
+  - AreaIndex: 3
+    SectionIndex: 7
+    Pos: {x: 33, y: 23}
+  - AreaIndex: 3
+    SectionIndex: 7
+    Pos: {x: 33, y: 24}
+  - AreaIndex: 3
+    SectionIndex: 7
+    Pos: {x: 34, y: 23}
+  - AreaIndex: 3
+    SectionIndex: 7
+    Pos: {x: 34, y: 24}
+  - AreaIndex: 3
+    SectionIndex: 8
+    Pos: {x: 35, y: 27}
+  - AreaIndex: 3
+    SectionIndex: 8
+    Pos: {x: 35, y: 28}
+  - AreaIndex: 3
+    SectionIndex: 8
+    Pos: {x: 35, y: 29}
+  - AreaIndex: 3
+    SectionIndex: 8
+    Pos: {x: 36, y: 27}
+  - AreaIndex: 3
+    SectionIndex: 8
+    Pos: {x: 36, y: 28}
+  - AreaIndex: 3
+    SectionIndex: 8
+    Pos: {x: 36, y: 29}
+  - AreaIndex: 3
+    SectionIndex: 8
+    Pos: {x: 37, y: 27}
+  - AreaIndex: 3
+    SectionIndex: 8
+    Pos: {x: 37, y: 28}
+  - AreaIndex: 3
+    SectionIndex: 8
+    Pos: {x: 37, y: 29}
+  - AreaIndex: 3
+    SectionIndex: 9
+    Pos: {x: 36, y: 30}
+  - AreaIndex: 3
+    SectionIndex: 9
+    Pos: {x: 36, y: 31}
+  - AreaIndex: 3
+    SectionIndex: 9
+    Pos: {x: 36, y: 32}
+  - AreaIndex: 3
+    SectionIndex: 9
+    Pos: {x: 36, y: 33}
+  - AreaIndex: 3
+    SectionIndex: 10
+    Pos: {x: 38, y: 27}
+  - AreaIndex: 3
+    SectionIndex: 10
+    Pos: {x: 39, y: 27}
+  - AreaIndex: 3
+    SectionIndex: 11
+    Pos: {x: 38, y: 28}
+  - AreaIndex: 3
+    SectionIndex: 11
+    Pos: {x: 38, y: 29}
+  - AreaIndex: 3
+    SectionIndex: 11
+    Pos: {x: 39, y: 28}
+  - AreaIndex: 3
+    SectionIndex: 11
+    Pos: {x: 39, y: 29}
+  - AreaIndex: 3
+    SectionIndex: 12
+    Pos: {x: 33, y: 28}
+  - AreaIndex: 3
+    SectionIndex: 12
+    Pos: {x: 33, y: 29}
+  - AreaIndex: 3
+    SectionIndex: 12
+    Pos: {x: 33, y: 30}
+  - AreaIndex: 3
+    SectionIndex: 12
+    Pos: {x: 33, y: 31}
+  - AreaIndex: 3
+    SectionIndex: 12
+    Pos: {x: 33, y: 32}
+  - AreaIndex: 3
+    SectionIndex: 12
+    Pos: {x: 34, y: 28}
+  - AreaIndex: 3
+    SectionIndex: 12
+    Pos: {x: 34, y: 29}
+  - AreaIndex: 3
+    SectionIndex: 12
+    Pos: {x: 34, y: 30}
+  - AreaIndex: 3
+    SectionIndex: 12
+    Pos: {x: 34, y: 31}
+  - AreaIndex: 3
+    SectionIndex: 12
+    Pos: {x: 34, y: 32}
+  - AreaIndex: 3
+    SectionIndex: 13
+    Pos: {x: 36, y: 34}
+  - AreaIndex: 3
+    SectionIndex: 14
+    Pos: {x: 37, y: 34}
+  - AreaIndex: 3
+    SectionIndex: 15
+    Pos: {x: 35, y: 35}
+  - AreaIndex: 3
+    SectionIndex: 15
+    Pos: {x: 35, y: 36}
+  - AreaIndex: 3
+    SectionIndex: 15
+    Pos: {x: 36, y: 35}
+  - AreaIndex: 3
+    SectionIndex: 15
+    Pos: {x: 36, y: 36}
+  - AreaIndex: 3
+    SectionIndex: 15
+    Pos: {x: 37, y: 35}
+  - AreaIndex: 3
+    SectionIndex: 15
+    Pos: {x: 37, y: 36}
+  - AreaIndex: 4
+    SectionIndex: 0
+    Pos: {x: 31, y: 14}
+  - AreaIndex: 4
+    SectionIndex: 1
+    Pos: {x: 32, y: 14}
+  - AreaIndex: 4
+    SectionIndex: 1
+    Pos: {x: 32, y: 15}
+  - AreaIndex: 4
+    SectionIndex: 1
+    Pos: {x: 33, y: 14}
+  - AreaIndex: 4
+    SectionIndex: 1
+    Pos: {x: 33, y: 15}
+  - AreaIndex: 4
+    SectionIndex: 2
+    Pos: {x: 34, y: 13}
+  - AreaIndex: 4
+    SectionIndex: 2
+    Pos: {x: 34, y: 14}
+  - AreaIndex: 4
+    SectionIndex: 2
+    Pos: {x: 34, y: 15}
+  - AreaIndex: 4
+    SectionIndex: 2
+    Pos: {x: 34, y: 16}
+  - AreaIndex: 4
+    SectionIndex: 3
+    Pos: {x: 35, y: 14}
+  - AreaIndex: 4
+    SectionIndex: 3
+    Pos: {x: 35, y: 15}
+  - AreaIndex: 4
+    SectionIndex: 3
+    Pos: {x: 36, y: 14}
+  - AreaIndex: 4
+    SectionIndex: 3
+    Pos: {x: 36, y: 15}
+  - AreaIndex: 4
+    SectionIndex: 4
+    Pos: {x: 37, y: 14}
+  - AreaIndex: 4
+    SectionIndex: 4
+    Pos: {x: 37, y: 15}
+  - AreaIndex: 4
+    SectionIndex: 4
+    Pos: {x: 38, y: 14}
+  - AreaIndex: 4
+    SectionIndex: 4
+    Pos: {x: 38, y: 15}
+  - AreaIndex: 4
+    SectionIndex: 5
+    Pos: {x: 34, y: 17}
+  - AreaIndex: 4
+    SectionIndex: 5
+    Pos: {x: 34, y: 18}
+  - AreaIndex: 4
+    SectionIndex: 5
+    Pos: {x: 35, y: 17}
+  - AreaIndex: 4
+    SectionIndex: 5
+    Pos: {x: 35, y: 18}
+  - AreaIndex: 4
+    SectionIndex: 5
+    Pos: {x: 36, y: 17}
+  - AreaIndex: 4
+    SectionIndex: 5
+    Pos: {x: 36, y: 18}
+  - AreaIndex: 4
+    SectionIndex: 6
+    Pos: {x: 36, y: 19}
+  - AreaIndex: 4
+    SectionIndex: 7
+    Pos: {x: 37, y: 17}
+  - AreaIndex: 4
+    SectionIndex: 8
+    Pos: {x: 38, y: 17}
+  - AreaIndex: 5
+    SectionIndex: 0
+    Pos: {x: 34, y: 12}
+  - AreaIndex: 5
+    SectionIndex: 0
+    Pos: {x: 35, y: 12}
+  - AreaIndex: 5
+    SectionIndex: 0
+    Pos: {x: 36, y: 12}
+  - AreaIndex: 5
+    SectionIndex: 1
+    Pos: {x: 35, y: 10}
+  - AreaIndex: 5
+    SectionIndex: 1
+    Pos: {x: 35, y: 11}
+  - AreaIndex: 5
+    SectionIndex: 1
+    Pos: {x: 36, y: 10}
+  - AreaIndex: 5
+    SectionIndex: 1
+    Pos: {x: 36, y: 11}
+  - AreaIndex: 5
+    SectionIndex: 2
+    Pos: {x: 37, y: 10}
+  - AreaIndex: 5
+    SectionIndex: 2
+    Pos: {x: 37, y: 11}
+  - AreaIndex: 5
+    SectionIndex: 3
+    Pos: {x: 37, y: 8}
+  - AreaIndex: 5
+    SectionIndex: 3
+    Pos: {x: 37, y: 9}
+  - AreaIndex: 5
+    SectionIndex: 3
+    Pos: {x: 38, y: 8}
+  - AreaIndex: 5
+    SectionIndex: 3
+    Pos: {x: 38, y: 9}
+  - AreaIndex: 5
+    SectionIndex: 4
+    Pos: {x: 35, y: 8}
+  - AreaIndex: 5
+    SectionIndex: 4
+    Pos: {x: 35, y: 9}
+  - AreaIndex: 5
+    SectionIndex: 5
+    Pos: {x: 36, y: 8}
+  - AreaIndex: 5
+    SectionIndex: 5
+    Pos: {x: 36, y: 9}
+  - AreaIndex: 5
+    SectionIndex: 6
+    Pos: {x: 38, y: 10}
+  - AreaIndex: 5
+    SectionIndex: 6
+    Pos: {x: 38, y: 11}
+  WallData:
+  - colorindex: 0
+    gridindex1: 0
+    gridindex2: -1
+    Pos: {x: 11, y: 11}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 0
+    Pos: {x: 11, y: 10}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 0
+    gridindex2: 1
+    Pos: {x: 11, y: 11}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 4
+    gridindex2: 0
+    Pos: {x: 10, y: 11}
+    wallDir: 0
+    wallType: 1
+  - colorindex: -1
+    gridindex1: 1
+    gridindex2: 28
+    Pos: {x: 12, y: 11}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 1
+    Pos: {x: 12, y: 10}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 1
+    gridindex2: 2
+    Pos: {x: 12, y: 11}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 2
+    gridindex2: -1
+    Pos: {x: 13, y: 11}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 22
+    gridindex2: 2
+    Pos: {x: 13, y: 10}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 2
+    gridindex2: -1
+    Pos: {x: 13, y: 11}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 3
+    gridindex2: -1
+    Pos: {x: 9, y: 11}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 3
+    Pos: {x: 9, y: 10}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 3
+    gridindex2: 4
+    Pos: {x: 9, y: 11}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 8
+    gridindex2: 3
+    Pos: {x: 8, y: 11}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 4
+    gridindex2: -1
+    Pos: {x: 10, y: 11}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 4
+    Pos: {x: 10, y: 10}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 5
+    gridindex2: 6
+    Pos: {x: 7, y: 10}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 9
+    gridindex2: 5
+    Pos: {x: 7, y: 9}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 5
+    gridindex2: 7
+    Pos: {x: 7, y: 10}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 5
+    Pos: {x: 6, y: 10}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 6
+    gridindex2: -1
+    Pos: {x: 7, y: 11}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 6
+    gridindex2: 8
+    Pos: {x: 7, y: 11}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 6
+    Pos: {x: 6, y: 11}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 7
+    gridindex2: 8
+    Pos: {x: 8, y: 10}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 10
+    gridindex2: 7
+    Pos: {x: 8, y: 9}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 7
+    gridindex2: -1
+    Pos: {x: 8, y: 10}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 8
+    gridindex2: -1
+    Pos: {x: 8, y: 11}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 9
+    Pos: {x: 7, y: 8}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 9
+    gridindex2: 10
+    Pos: {x: 7, y: 9}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 11
+    gridindex2: 9
+    Pos: {x: 6, y: 9}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 10
+    Pos: {x: 8, y: 8}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 10
+    gridindex2: 13
+    Pos: {x: 8, y: 9}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 11
+    gridindex2: -1
+    Pos: {x: 6, y: 9}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 11
+    Pos: {x: 6, y: 8}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 11
+    Pos: {x: 5, y: 9}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 12
+    gridindex2: 13
+    Pos: {x: 9, y: 8}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 12
+    Pos: {x: 9, y: 7}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 12
+    gridindex2: 14
+    Pos: {x: 9, y: 8}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 12
+    Pos: {x: 8, y: 8}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 13
+    gridindex2: -1
+    Pos: {x: 9, y: 9}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 13
+    gridindex2: 15
+    Pos: {x: 9, y: 9}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 14
+    gridindex2: 15
+    Pos: {x: 10, y: 8}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 14
+    Pos: {x: 10, y: 7}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 14
+    gridindex2: 16
+    Pos: {x: 10, y: 8}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 15
+    gridindex2: -1
+    Pos: {x: 10, y: 9}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 15
+    gridindex2: 17
+    Pos: {x: 10, y: 9}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 16
+    gridindex2: 17
+    Pos: {x: 11, y: 8}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 16
+    Pos: {x: 11, y: 7}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 16
+    gridindex2: -1
+    Pos: {x: 11, y: 8}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 17
+    gridindex2: -1
+    Pos: {x: 11, y: 9}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 17
+    gridindex2: 18
+    Pos: {x: 11, y: 9}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 18
+    gridindex2: -1
+    Pos: {x: 12, y: 9}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 18
+    Pos: {x: 12, y: 8}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 18
+    gridindex2: 19
+    Pos: {x: 12, y: 9}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 19
+    gridindex2: 22
+    Pos: {x: 13, y: 9}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 19
+    Pos: {x: 13, y: 8}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 19
+    gridindex2: 20
+    Pos: {x: 13, y: 9}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 20
+    gridindex2: 21
+    Pos: {x: 14, y: 9}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 20
+    Pos: {x: 14, y: 8}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 20
+    gridindex2: -1
+    Pos: {x: 14, y: 9}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 21
+    gridindex2: -1
+    Pos: {x: 14, y: 10}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 21
+    gridindex2: 23
+    Pos: {x: 14, y: 10}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 22
+    gridindex2: 21
+    Pos: {x: 13, y: 10}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 22
+    Pos: {x: 12, y: 10}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 23
+    gridindex2: -1
+    Pos: {x: 15, y: 10}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 23
+    Pos: {x: 15, y: 9}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 23
+    gridindex2: 24
+    Pos: {x: 15, y: 10}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 24
+    gridindex2: -1
+    Pos: {x: 16, y: 10}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 24
+    Pos: {x: 16, y: 9}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 24
+    gridindex2: 25
+    Pos: {x: 16, y: 10}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 25
+    gridindex2: 26
+    Pos: {x: 17, y: 10}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 25
+    Pos: {x: 17, y: 9}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 25
+    gridindex2: -1
+    Pos: {x: 17, y: 10}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 26
+    gridindex2: -1
+    Pos: {x: 17, y: 11}
+    wallDir: 1
+    wallType: 0
+  - colorindex: -1
+    gridindex1: 26
+    gridindex2: 45
+    Pos: {x: 17, y: 11}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 26
+    Pos: {x: 16, y: 11}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 27
+    gridindex2: -1
+    Pos: {x: 11, y: 15}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 34
+    gridindex2: 27
+    Pos: {x: 11, y: 14}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 1
+    gridindex1: 27
+    gridindex2: 31
+    Pos: {x: 11, y: 15}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 38
+    gridindex2: 27
+    Pos: {x: 10, y: 15}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 1
+    gridindex1: 28
+    gridindex2: 29
+    Pos: {x: 12, y: 12}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 28
+    gridindex2: -1
+    Pos: {x: 12, y: 12}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 28
+    Pos: {x: 11, y: 12}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 1
+    gridindex1: 29
+    gridindex2: 30
+    Pos: {x: 12, y: 13}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 29
+    gridindex2: -1
+    Pos: {x: 12, y: 13}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 1
+    gridindex1: 35
+    gridindex2: 29
+    Pos: {x: 11, y: 13}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 1
+    gridindex1: 30
+    gridindex2: 31
+    Pos: {x: 12, y: 14}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 30
+    gridindex2: -1
+    Pos: {x: 12, y: 14}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 1
+    gridindex1: 34
+    gridindex2: 30
+    Pos: {x: 11, y: 14}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 1
+    gridindex1: 31
+    gridindex2: 32
+    Pos: {x: 12, y: 15}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 31
+    gridindex2: -1
+    Pos: {x: 12, y: 15}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 1
+    gridindex1: 32
+    gridindex2: 33
+    Pos: {x: 12, y: 16}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 32
+    gridindex2: -1
+    Pos: {x: 12, y: 16}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 32
+    Pos: {x: 11, y: 16}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 33
+    gridindex2: -1
+    Pos: {x: 12, y: 17}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 33
+    gridindex2: -1
+    Pos: {x: 12, y: 17}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 1
+    gridindex1: 39
+    gridindex2: 33
+    Pos: {x: 11, y: 17}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 35
+    gridindex2: 34
+    Pos: {x: 11, y: 13}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 1
+    gridindex1: 37
+    gridindex2: 34
+    Pos: {x: 10, y: 14}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 35
+    Pos: {x: 11, y: 12}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 1
+    gridindex1: 36
+    gridindex2: 35
+    Pos: {x: 10, y: 13}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 1
+    gridindex1: 36
+    gridindex2: 37
+    Pos: {x: 10, y: 13}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 36
+    Pos: {x: 10, y: 12}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 36
+    Pos: {x: 9, y: 13}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 1
+    gridindex1: 37
+    gridindex2: 38
+    Pos: {x: 10, y: 14}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 37
+    Pos: {x: 9, y: 14}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 38
+    gridindex2: -1
+    Pos: {x: 10, y: 15}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 38
+    Pos: {x: 9, y: 15}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 39
+    gridindex2: -1
+    Pos: {x: 11, y: 17}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 39
+    Pos: {x: 11, y: 16}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 39
+    Pos: {x: 10, y: 17}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 40
+    gridindex2: -1
+    Pos: {x: 19, y: 12}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 46
+    gridindex2: 40
+    Pos: {x: 19, y: 11}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 2
+    gridindex1: 40
+    gridindex2: 41
+    Pos: {x: 19, y: 12}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 40
+    Pos: {x: 18, y: 12}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 41
+    gridindex2: -1
+    Pos: {x: 20, y: 12}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 58
+    gridindex2: 41
+    Pos: {x: 20, y: 11}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 2
+    gridindex1: 41
+    gridindex2: 44
+    Pos: {x: 20, y: 12}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 42
+    gridindex2: -1
+    Pos: {x: 22, y: 12}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 68
+    gridindex2: 42
+    Pos: {x: 22, y: 11}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 2
+    gridindex1: 42
+    gridindex2: 43
+    Pos: {x: 22, y: 12}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 2
+    gridindex1: 44
+    gridindex2: 42
+    Pos: {x: 21, y: 12}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 2
+    gridindex1: 43
+    gridindex2: 53
+    Pos: {x: 23, y: 12}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 43
+    Pos: {x: 23, y: 11}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 43
+    gridindex2: 55
+    Pos: {x: 23, y: 12}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 44
+    gridindex2: -1
+    Pos: {x: 21, y: 12}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 44
+    Pos: {x: 21, y: 11}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 45
+    gridindex2: -1
+    Pos: {x: 18, y: 11}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 45
+    Pos: {x: 18, y: 10}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 45
+    gridindex2: 46
+    Pos: {x: 18, y: 11}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 61
+    gridindex2: 46
+    Pos: {x: 19, y: 10}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 46
+    gridindex2: 58
+    Pos: {x: 19, y: 11}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 47
+    gridindex2: -1
+    Pos: {x: 26, y: 15}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 47
+    Pos: {x: 26, y: 14}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 47
+    gridindex2: 48
+    Pos: {x: 26, y: 15}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 2
+    gridindex1: 50
+    gridindex2: 47
+    Pos: {x: 25, y: 15}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 48
+    gridindex2: -1
+    Pos: {x: 27, y: 15}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 48
+    Pos: {x: 27, y: 14}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 48
+    gridindex2: -1
+    Pos: {x: 27, y: 15}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 49
+    gridindex2: 50
+    Pos: {x: 25, y: 14}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 71
+    gridindex2: 49
+    Pos: {x: 25, y: 13}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 49
+    gridindex2: -1
+    Pos: {x: 25, y: 14}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 52
+    gridindex2: 49
+    Pos: {x: 24, y: 14}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 50
+    gridindex2: -1
+    Pos: {x: 25, y: 15}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 54
+    gridindex2: 50
+    Pos: {x: 24, y: 15}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 51
+    gridindex2: -1
+    Pos: {x: 23, y: 14}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 53
+    gridindex2: 51
+    Pos: {x: 23, y: 13}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 2
+    gridindex1: 51
+    gridindex2: 52
+    Pos: {x: 23, y: 14}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 51
+    Pos: {x: 22, y: 14}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 52
+    gridindex2: 54
+    Pos: {x: 24, y: 14}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 56
+    gridindex2: 52
+    Pos: {x: 24, y: 13}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 53
+    gridindex2: 56
+    Pos: {x: 23, y: 13}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 53
+    Pos: {x: 22, y: 13}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 54
+    gridindex2: -1
+    Pos: {x: 24, y: 15}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 54
+    Pos: {x: 23, y: 15}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 55
+    gridindex2: 56
+    Pos: {x: 24, y: 12}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 55
+    Pos: {x: 24, y: 11}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 55
+    gridindex2: 69
+    Pos: {x: 24, y: 12}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 2
+    gridindex1: 56
+    gridindex2: 71
+    Pos: {x: 24, y: 13}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 2
+    gridindex1: 57
+    gridindex2: 58
+    Pos: {x: 20, y: 10}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 2
+    gridindex1: 62
+    gridindex2: 57
+    Pos: {x: 20, y: 9}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 57
+    gridindex2: -1
+    Pos: {x: 20, y: 10}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 61
+    gridindex2: 57
+    Pos: {x: 19, y: 10}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 58
+    gridindex2: -1
+    Pos: {x: 20, y: 11}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 59
+    gridindex2: -1
+    Pos: {x: 18, y: 9}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 59
+    Pos: {x: 18, y: 8}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 59
+    gridindex2: 60
+    Pos: {x: 18, y: 9}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 59
+    Pos: {x: 17, y: 9}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 60
+    gridindex2: 61
+    Pos: {x: 19, y: 9}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 60
+    Pos: {x: 19, y: 8}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 60
+    gridindex2: 62
+    Pos: {x: 19, y: 9}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 61
+    Pos: {x: 18, y: 10}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 62
+    Pos: {x: 20, y: 8}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 62
+    gridindex2: 63
+    Pos: {x: 20, y: 9}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 63
+    gridindex2: -1
+    Pos: {x: 21, y: 9}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 63
+    Pos: {x: 21, y: 8}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 63
+    gridindex2: 64
+    Pos: {x: 21, y: 9}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 2
+    gridindex1: 64
+    gridindex2: 65
+    Pos: {x: 22, y: 9}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 64
+    Pos: {x: 22, y: 8}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 64
+    gridindex2: -1
+    Pos: {x: 22, y: 9}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 65
+    gridindex2: 68
+    Pos: {x: 22, y: 10}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 2
+    gridindex1: 65
+    gridindex2: 66
+    Pos: {x: 22, y: 10}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 65
+    Pos: {x: 21, y: 10}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 66
+    gridindex2: -1
+    Pos: {x: 23, y: 10}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 66
+    Pos: {x: 23, y: 9}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 66
+    gridindex2: 67
+    Pos: {x: 23, y: 10}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 67
+    gridindex2: -1
+    Pos: {x: 24, y: 10}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 67
+    Pos: {x: 24, y: 9}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 67
+    gridindex2: 82
+    Pos: {x: 24, y: 10}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 68
+    gridindex2: -1
+    Pos: {x: 22, y: 11}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 68
+    Pos: {x: 21, y: 11}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 69
+    gridindex2: 71
+    Pos: {x: 25, y: 12}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 2
+    gridindex1: 75
+    gridindex2: 69
+    Pos: {x: 25, y: 11}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 2
+    gridindex1: 69
+    gridindex2: 70
+    Pos: {x: 25, y: 12}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 2
+    gridindex1: 70
+    gridindex2: 72
+    Pos: {x: 26, y: 12}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 2
+    gridindex1: 74
+    gridindex2: 70
+    Pos: {x: 26, y: 11}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 70
+    gridindex2: -1
+    Pos: {x: 26, y: 12}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 71
+    gridindex2: 72
+    Pos: {x: 25, y: 13}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 72
+    gridindex2: -1
+    Pos: {x: 26, y: 13}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 72
+    gridindex2: 76
+    Pos: {x: 26, y: 13}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 2
+    gridindex1: 73
+    gridindex2: 74
+    Pos: {x: 26, y: 10}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 2
+    gridindex1: 83
+    gridindex2: 73
+    Pos: {x: 26, y: 9}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 73
+    gridindex2: -1
+    Pos: {x: 26, y: 10}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 82
+    gridindex2: 73
+    Pos: {x: 25, y: 10}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 74
+    gridindex2: -1
+    Pos: {x: 26, y: 11}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 75
+    gridindex2: 74
+    Pos: {x: 25, y: 11}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 2
+    gridindex1: 82
+    gridindex2: 75
+    Pos: {x: 25, y: 10}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 75
+    Pos: {x: 24, y: 11}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 76
+    gridindex2: -1
+    Pos: {x: 27, y: 13}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 76
+    Pos: {x: 27, y: 12}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 76
+    gridindex2: 77
+    Pos: {x: 27, y: 13}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 77
+    gridindex2: -1
+    Pos: {x: 28, y: 13}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 77
+    Pos: {x: 28, y: 12}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 77
+    gridindex2: 78
+    Pos: {x: 28, y: 13}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 2
+    gridindex1: 78
+    gridindex2: 79
+    Pos: {x: 29, y: 13}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 78
+    Pos: {x: 29, y: 12}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 78
+    gridindex2: -1
+    Pos: {x: 29, y: 13}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 79
+    gridindex2: -1
+    Pos: {x: 29, y: 14}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 79
+    gridindex2: 80
+    Pos: {x: 29, y: 14}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 79
+    Pos: {x: 28, y: 14}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 80
+    gridindex2: -1
+    Pos: {x: 30, y: 14}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 80
+    Pos: {x: 30, y: 13}
+    wallDir: 1
+    wallType: 0
+  - colorindex: -1
+    gridindex1: 80
+    gridindex2: 168
+    Pos: {x: 30, y: 14}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 2
+    gridindex1: 81
+    gridindex2: 82
+    Pos: {x: 25, y: 9}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 2
+    gridindex1: 87
+    gridindex2: 81
+    Pos: {x: 25, y: 8}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 2
+    gridindex1: 81
+    gridindex2: 83
+    Pos: {x: 25, y: 9}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 81
+    Pos: {x: 24, y: 9}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 83
+    Pos: {x: 26, y: 8}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 83
+    gridindex2: 84
+    Pos: {x: 26, y: 9}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 84
+    gridindex2: -1
+    Pos: {x: 27, y: 9}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 84
+    Pos: {x: 27, y: 8}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 84
+    gridindex2: 85
+    Pos: {x: 27, y: 9}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 85
+    gridindex2: -1
+    Pos: {x: 28, y: 9}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 85
+    Pos: {x: 28, y: 8}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 85
+    gridindex2: -1
+    Pos: {x: 28, y: 9}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 86
+    gridindex2: -1
+    Pos: {x: 24, y: 8}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 86
+    Pos: {x: 24, y: 7}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 2
+    gridindex1: 86
+    gridindex2: 87
+    Pos: {x: 24, y: 8}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 86
+    Pos: {x: 23, y: 8}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 87
+    Pos: {x: 25, y: 7}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 87
+    gridindex2: -1
+    Pos: {x: 25, y: 8}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 88
+    gridindex2: -1
+    Pos: {x: 34, y: 20}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 88
+    Pos: {x: 34, y: 19}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 88
+    gridindex2: 90
+    Pos: {x: 34, y: 20}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 88
+    Pos: {x: 33, y: 20}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 89
+    gridindex2: -1
+    Pos: {x: 38, y: 20}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 89
+    Pos: {x: 38, y: 19}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 89
+    gridindex2: -1
+    Pos: {x: 38, y: 20}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 92
+    gridindex2: 89
+    Pos: {x: 37, y: 20}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 90
+    gridindex2: 93
+    Pos: {x: 35, y: 20}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 90
+    Pos: {x: 35, y: 19}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 90
+    gridindex2: 91
+    Pos: {x: 35, y: 20}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 91
+    gridindex2: 99
+    Pos: {x: 36, y: 20}
+    wallDir: 1
+    wallType: 1
+  - colorindex: -1
+    gridindex1: 191
+    gridindex2: 91
+    Pos: {x: 36, y: 19}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 91
+    gridindex2: 92
+    Pos: {x: 36, y: 20}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 92
+    gridindex2: 105
+    Pos: {x: 37, y: 20}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 92
+    Pos: {x: 37, y: 19}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 93
+    gridindex2: 94
+    Pos: {x: 35, y: 21}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 93
+    gridindex2: 99
+    Pos: {x: 35, y: 21}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 93
+    Pos: {x: 34, y: 21}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 94
+    gridindex2: 95
+    Pos: {x: 35, y: 22}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 94
+    gridindex2: 100
+    Pos: {x: 35, y: 22}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 94
+    Pos: {x: 34, y: 22}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 95
+    gridindex2: 96
+    Pos: {x: 35, y: 23}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 95
+    gridindex2: 101
+    Pos: {x: 35, y: 23}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 129
+    gridindex2: 95
+    Pos: {x: 34, y: 23}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 96
+    gridindex2: 97
+    Pos: {x: 35, y: 24}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 96
+    gridindex2: 102
+    Pos: {x: 35, y: 24}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 130
+    gridindex2: 96
+    Pos: {x: 34, y: 24}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 97
+    gridindex2: 98
+    Pos: {x: 35, y: 25}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 97
+    gridindex2: 103
+    Pos: {x: 35, y: 25}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 114
+    gridindex2: 97
+    Pos: {x: 34, y: 25}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 98
+    gridindex2: 131
+    Pos: {x: 35, y: 26}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 98
+    gridindex2: 104
+    Pos: {x: 35, y: 26}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 115
+    gridindex2: 98
+    Pos: {x: 34, y: 26}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 99
+    gridindex2: 100
+    Pos: {x: 36, y: 21}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 99
+    gridindex2: 105
+    Pos: {x: 36, y: 21}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 100
+    gridindex2: 101
+    Pos: {x: 36, y: 22}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 100
+    gridindex2: 106
+    Pos: {x: 36, y: 22}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 101
+    gridindex2: 102
+    Pos: {x: 36, y: 23}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 101
+    gridindex2: 107
+    Pos: {x: 36, y: 23}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 102
+    gridindex2: 103
+    Pos: {x: 36, y: 24}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 102
+    gridindex2: 108
+    Pos: {x: 36, y: 24}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 103
+    gridindex2: 104
+    Pos: {x: 36, y: 25}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 103
+    gridindex2: 109
+    Pos: {x: 36, y: 25}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 104
+    gridindex2: 134
+    Pos: {x: 36, y: 26}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 104
+    gridindex2: 110
+    Pos: {x: 36, y: 26}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 105
+    gridindex2: 106
+    Pos: {x: 37, y: 21}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 105
+    gridindex2: -1
+    Pos: {x: 37, y: 21}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 106
+    gridindex2: 107
+    Pos: {x: 37, y: 22}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 106
+    gridindex2: 123
+    Pos: {x: 37, y: 22}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 107
+    gridindex2: 108
+    Pos: {x: 37, y: 23}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 107
+    gridindex2: 124
+    Pos: {x: 37, y: 23}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 108
+    gridindex2: 109
+    Pos: {x: 37, y: 24}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 108
+    gridindex2: 117
+    Pos: {x: 37, y: 24}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 109
+    gridindex2: 110
+    Pos: {x: 37, y: 25}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 109
+    gridindex2: 118
+    Pos: {x: 37, y: 25}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 110
+    gridindex2: 137
+    Pos: {x: 37, y: 26}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 110
+    gridindex2: 119
+    Pos: {x: 37, y: 26}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 111
+    gridindex2: 112
+    Pos: {x: 33, y: 25}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 128
+    gridindex2: 111
+    Pos: {x: 33, y: 24}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 111
+    gridindex2: 114
+    Pos: {x: 33, y: 25}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 111
+    Pos: {x: 32, y: 25}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 112
+    gridindex2: 113
+    Pos: {x: 33, y: 26}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 112
+    gridindex2: 115
+    Pos: {x: 33, y: 26}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 112
+    Pos: {x: 32, y: 26}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 113
+    gridindex2: 150
+    Pos: {x: 33, y: 27}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 113
+    gridindex2: 116
+    Pos: {x: 33, y: 27}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 113
+    Pos: {x: 32, y: 27}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 114
+    gridindex2: 115
+    Pos: {x: 34, y: 25}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 130
+    gridindex2: 114
+    Pos: {x: 34, y: 24}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 115
+    gridindex2: 116
+    Pos: {x: 34, y: 26}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 116
+    gridindex2: 155
+    Pos: {x: 34, y: 27}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 116
+    gridindex2: 131
+    Pos: {x: 34, y: 27}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 117
+    gridindex2: 118
+    Pos: {x: 38, y: 24}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 124
+    gridindex2: 117
+    Pos: {x: 38, y: 23}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 117
+    gridindex2: 120
+    Pos: {x: 38, y: 24}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 118
+    gridindex2: 119
+    Pos: {x: 38, y: 25}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 118
+    gridindex2: 121
+    Pos: {x: 38, y: 25}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 119
+    gridindex2: 144
+    Pos: {x: 38, y: 26}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 119
+    gridindex2: 122
+    Pos: {x: 38, y: 26}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 120
+    gridindex2: 121
+    Pos: {x: 39, y: 24}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 126
+    gridindex2: 120
+    Pos: {x: 39, y: 23}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 120
+    gridindex2: -1
+    Pos: {x: 39, y: 24}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 121
+    gridindex2: 122
+    Pos: {x: 39, y: 25}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 121
+    gridindex2: -1
+    Pos: {x: 39, y: 25}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 122
+    gridindex2: 145
+    Pos: {x: 39, y: 26}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 122
+    gridindex2: -1
+    Pos: {x: 39, y: 26}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 123
+    gridindex2: 124
+    Pos: {x: 38, y: 22}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 123
+    Pos: {x: 38, y: 21}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 123
+    gridindex2: 125
+    Pos: {x: 38, y: 22}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 124
+    gridindex2: 126
+    Pos: {x: 38, y: 23}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 125
+    gridindex2: 126
+    Pos: {x: 39, y: 22}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 125
+    Pos: {x: 39, y: 21}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 125
+    gridindex2: -1
+    Pos: {x: 39, y: 22}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 126
+    gridindex2: -1
+    Pos: {x: 39, y: 23}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 127
+    gridindex2: 128
+    Pos: {x: 33, y: 23}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 127
+    Pos: {x: 33, y: 22}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 127
+    gridindex2: 129
+    Pos: {x: 33, y: 23}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 127
+    Pos: {x: 32, y: 23}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 128
+    gridindex2: 130
+    Pos: {x: 33, y: 24}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 128
+    Pos: {x: 32, y: 24}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 129
+    gridindex2: 130
+    Pos: {x: 34, y: 23}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 129
+    Pos: {x: 34, y: 22}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 131
+    gridindex2: 132
+    Pos: {x: 35, y: 27}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 131
+    gridindex2: 134
+    Pos: {x: 35, y: 27}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 132
+    gridindex2: 133
+    Pos: {x: 35, y: 28}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 132
+    gridindex2: 135
+    Pos: {x: 35, y: 28}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 155
+    gridindex2: 132
+    Pos: {x: 34, y: 28}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 133
+    gridindex2: -1
+    Pos: {x: 35, y: 29}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 133
+    gridindex2: 136
+    Pos: {x: 35, y: 29}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 156
+    gridindex2: 133
+    Pos: {x: 34, y: 29}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 134
+    gridindex2: 135
+    Pos: {x: 36, y: 27}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 134
+    gridindex2: 137
+    Pos: {x: 36, y: 27}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 135
+    gridindex2: 136
+    Pos: {x: 36, y: 28}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 135
+    gridindex2: 138
+    Pos: {x: 36, y: 28}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 136
+    gridindex2: 140
+    Pos: {x: 36, y: 29}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 136
+    gridindex2: 139
+    Pos: {x: 36, y: 29}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 137
+    gridindex2: 138
+    Pos: {x: 37, y: 27}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 137
+    gridindex2: 144
+    Pos: {x: 37, y: 27}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 138
+    gridindex2: 139
+    Pos: {x: 37, y: 28}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 138
+    gridindex2: 146
+    Pos: {x: 37, y: 28}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 139
+    gridindex2: -1
+    Pos: {x: 37, y: 29}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 139
+    gridindex2: 147
+    Pos: {x: 37, y: 29}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 140
+    gridindex2: 141
+    Pos: {x: 36, y: 30}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 140
+    gridindex2: -1
+    Pos: {x: 36, y: 30}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 140
+    Pos: {x: 35, y: 30}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 141
+    gridindex2: 142
+    Pos: {x: 36, y: 31}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 141
+    gridindex2: -1
+    Pos: {x: 36, y: 31}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 141
+    Pos: {x: 35, y: 31}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 142
+    gridindex2: 143
+    Pos: {x: 36, y: 32}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 142
+    gridindex2: -1
+    Pos: {x: 36, y: 32}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 142
+    Pos: {x: 35, y: 32}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 143
+    gridindex2: 160
+    Pos: {x: 36, y: 33}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 143
+    gridindex2: -1
+    Pos: {x: 36, y: 33}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 143
+    Pos: {x: 35, y: 33}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 144
+    gridindex2: 146
+    Pos: {x: 38, y: 27}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 144
+    gridindex2: 145
+    Pos: {x: 38, y: 27}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 145
+    gridindex2: 148
+    Pos: {x: 39, y: 27}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 145
+    gridindex2: -1
+    Pos: {x: 39, y: 27}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 146
+    gridindex2: 147
+    Pos: {x: 38, y: 28}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 146
+    gridindex2: 148
+    Pos: {x: 38, y: 28}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 147
+    gridindex2: -1
+    Pos: {x: 38, y: 29}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 147
+    gridindex2: 149
+    Pos: {x: 38, y: 29}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 148
+    gridindex2: 149
+    Pos: {x: 39, y: 28}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 148
+    gridindex2: -1
+    Pos: {x: 39, y: 28}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 149
+    gridindex2: -1
+    Pos: {x: 39, y: 29}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 149
+    gridindex2: -1
+    Pos: {x: 39, y: 29}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 150
+    gridindex2: 151
+    Pos: {x: 33, y: 28}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 150
+    gridindex2: 155
+    Pos: {x: 33, y: 28}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 150
+    Pos: {x: 32, y: 28}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 151
+    gridindex2: 152
+    Pos: {x: 33, y: 29}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 151
+    gridindex2: 156
+    Pos: {x: 33, y: 29}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 151
+    Pos: {x: 32, y: 29}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 152
+    gridindex2: 153
+    Pos: {x: 33, y: 30}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 152
+    gridindex2: 157
+    Pos: {x: 33, y: 30}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 152
+    Pos: {x: 32, y: 30}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 153
+    gridindex2: 154
+    Pos: {x: 33, y: 31}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 153
+    gridindex2: 158
+    Pos: {x: 33, y: 31}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 153
+    Pos: {x: 32, y: 31}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 154
+    gridindex2: -1
+    Pos: {x: 33, y: 32}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 154
+    gridindex2: 159
+    Pos: {x: 33, y: 32}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 154
+    Pos: {x: 32, y: 32}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 155
+    gridindex2: 156
+    Pos: {x: 34, y: 28}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 156
+    gridindex2: 157
+    Pos: {x: 34, y: 29}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 157
+    gridindex2: 158
+    Pos: {x: 34, y: 30}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 157
+    gridindex2: -1
+    Pos: {x: 34, y: 30}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 158
+    gridindex2: 159
+    Pos: {x: 34, y: 31}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 158
+    gridindex2: -1
+    Pos: {x: 34, y: 31}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 159
+    gridindex2: -1
+    Pos: {x: 34, y: 32}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 159
+    gridindex2: -1
+    Pos: {x: 34, y: 32}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 160
+    gridindex2: 164
+    Pos: {x: 36, y: 34}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 3
+    gridindex1: 160
+    gridindex2: 161
+    Pos: {x: 36, y: 34}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 160
+    Pos: {x: 35, y: 34}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 161
+    gridindex2: 166
+    Pos: {x: 37, y: 34}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 161
+    Pos: {x: 37, y: 33}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 161
+    gridindex2: -1
+    Pos: {x: 37, y: 34}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 162
+    gridindex2: 163
+    Pos: {x: 35, y: 35}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 162
+    Pos: {x: 35, y: 34}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 162
+    gridindex2: 164
+    Pos: {x: 35, y: 35}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 162
+    Pos: {x: 34, y: 35}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 163
+    gridindex2: -1
+    Pos: {x: 35, y: 36}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 163
+    gridindex2: 165
+    Pos: {x: 35, y: 36}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 163
+    Pos: {x: 34, y: 36}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 164
+    gridindex2: 165
+    Pos: {x: 36, y: 35}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 164
+    gridindex2: 166
+    Pos: {x: 36, y: 35}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 165
+    gridindex2: -1
+    Pos: {x: 36, y: 36}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 3
+    gridindex1: 165
+    gridindex2: 167
+    Pos: {x: 36, y: 36}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 3
+    gridindex1: 166
+    gridindex2: 167
+    Pos: {x: 37, y: 35}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 166
+    gridindex2: -1
+    Pos: {x: 37, y: 35}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 167
+    gridindex2: -1
+    Pos: {x: 37, y: 36}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 167
+    gridindex2: -1
+    Pos: {x: 37, y: 36}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 168
+    gridindex2: -1
+    Pos: {x: 31, y: 14}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 168
+    Pos: {x: 31, y: 13}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 168
+    gridindex2: 169
+    Pos: {x: 31, y: 14}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 4
+    gridindex1: 169
+    gridindex2: 170
+    Pos: {x: 32, y: 14}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 169
+    Pos: {x: 32, y: 13}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 169
+    gridindex2: 171
+    Pos: {x: 32, y: 14}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 170
+    gridindex2: -1
+    Pos: {x: 32, y: 15}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 170
+    gridindex2: 172
+    Pos: {x: 32, y: 15}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 170
+    Pos: {x: 31, y: 15}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 171
+    gridindex2: 172
+    Pos: {x: 33, y: 14}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 171
+    Pos: {x: 33, y: 13}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 171
+    gridindex2: 174
+    Pos: {x: 33, y: 14}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 172
+    gridindex2: -1
+    Pos: {x: 33, y: 15}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 172
+    gridindex2: 175
+    Pos: {x: 33, y: 15}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 173
+    gridindex2: 174
+    Pos: {x: 34, y: 13}
+    wallDir: 1
+    wallType: 2
+  - colorindex: -1
+    gridindex1: 194
+    gridindex2: 173
+    Pos: {x: 34, y: 12}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 173
+    gridindex2: -1
+    Pos: {x: 34, y: 13}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 173
+    Pos: {x: 33, y: 13}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 174
+    gridindex2: 175
+    Pos: {x: 34, y: 14}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 4
+    gridindex1: 174
+    gridindex2: 177
+    Pos: {x: 34, y: 14}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 4
+    gridindex1: 175
+    gridindex2: 176
+    Pos: {x: 34, y: 15}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 175
+    gridindex2: 178
+    Pos: {x: 34, y: 15}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 176
+    gridindex2: 185
+    Pos: {x: 34, y: 16}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 176
+    gridindex2: -1
+    Pos: {x: 34, y: 16}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 176
+    Pos: {x: 33, y: 16}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 177
+    gridindex2: 178
+    Pos: {x: 35, y: 14}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 177
+    Pos: {x: 35, y: 13}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 177
+    gridindex2: 179
+    Pos: {x: 35, y: 14}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 178
+    gridindex2: -1
+    Pos: {x: 35, y: 15}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 178
+    gridindex2: 180
+    Pos: {x: 35, y: 15}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 4
+    gridindex1: 179
+    gridindex2: 180
+    Pos: {x: 36, y: 14}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 179
+    Pos: {x: 36, y: 13}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 179
+    gridindex2: 181
+    Pos: {x: 36, y: 14}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 180
+    gridindex2: -1
+    Pos: {x: 36, y: 15}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 180
+    gridindex2: 182
+    Pos: {x: 36, y: 15}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 4
+    gridindex1: 181
+    gridindex2: 182
+    Pos: {x: 37, y: 14}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 181
+    Pos: {x: 37, y: 13}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 181
+    gridindex2: 183
+    Pos: {x: 37, y: 14}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 182
+    gridindex2: -1
+    Pos: {x: 37, y: 15}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 182
+    gridindex2: 184
+    Pos: {x: 37, y: 15}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 4
+    gridindex1: 183
+    gridindex2: 184
+    Pos: {x: 38, y: 14}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 183
+    Pos: {x: 38, y: 13}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 183
+    gridindex2: -1
+    Pos: {x: 38, y: 14}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 184
+    gridindex2: -1
+    Pos: {x: 38, y: 15}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 184
+    gridindex2: -1
+    Pos: {x: 38, y: 15}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 185
+    gridindex2: 186
+    Pos: {x: 34, y: 17}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 4
+    gridindex1: 185
+    gridindex2: 187
+    Pos: {x: 34, y: 17}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 185
+    Pos: {x: 33, y: 17}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 186
+    gridindex2: -1
+    Pos: {x: 34, y: 18}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 186
+    gridindex2: 188
+    Pos: {x: 34, y: 18}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 186
+    Pos: {x: 33, y: 18}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 187
+    gridindex2: 188
+    Pos: {x: 35, y: 17}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 187
+    Pos: {x: 35, y: 16}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 187
+    gridindex2: 189
+    Pos: {x: 35, y: 17}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 188
+    gridindex2: -1
+    Pos: {x: 35, y: 18}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 188
+    gridindex2: 190
+    Pos: {x: 35, y: 18}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 4
+    gridindex1: 189
+    gridindex2: 190
+    Pos: {x: 36, y: 17}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 189
+    Pos: {x: 36, y: 16}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 189
+    gridindex2: 192
+    Pos: {x: 36, y: 17}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 4
+    gridindex1: 190
+    gridindex2: 191
+    Pos: {x: 36, y: 18}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 190
+    gridindex2: -1
+    Pos: {x: 36, y: 18}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 191
+    gridindex2: -1
+    Pos: {x: 36, y: 19}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 191
+    Pos: {x: 35, y: 19}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 192
+    gridindex2: -1
+    Pos: {x: 37, y: 17}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 192
+    Pos: {x: 37, y: 16}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 4
+    gridindex1: 192
+    gridindex2: 193
+    Pos: {x: 37, y: 17}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 193
+    gridindex2: -1
+    Pos: {x: 38, y: 17}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 193
+    Pos: {x: 38, y: 16}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 193
+    gridindex2: -1
+    Pos: {x: 38, y: 17}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 194
+    Pos: {x: 34, y: 11}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 5
+    gridindex1: 194
+    gridindex2: 195
+    Pos: {x: 34, y: 12}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 194
+    Pos: {x: 33, y: 12}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 195
+    gridindex2: -1
+    Pos: {x: 35, y: 12}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 5
+    gridindex1: 198
+    gridindex2: 195
+    Pos: {x: 35, y: 11}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 5
+    gridindex1: 195
+    gridindex2: 196
+    Pos: {x: 35, y: 12}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 196
+    gridindex2: -1
+    Pos: {x: 36, y: 12}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 200
+    gridindex2: 196
+    Pos: {x: 36, y: 11}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 196
+    gridindex2: -1
+    Pos: {x: 36, y: 12}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 5
+    gridindex1: 197
+    gridindex2: 198
+    Pos: {x: 35, y: 10}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 5
+    gridindex1: 208
+    gridindex2: 197
+    Pos: {x: 35, y: 9}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 5
+    gridindex1: 197
+    gridindex2: 199
+    Pos: {x: 35, y: 10}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 197
+    Pos: {x: 34, y: 10}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 5
+    gridindex1: 198
+    gridindex2: 200
+    Pos: {x: 35, y: 11}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 198
+    Pos: {x: 34, y: 11}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 5
+    gridindex1: 199
+    gridindex2: 200
+    Pos: {x: 36, y: 10}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 210
+    gridindex2: 199
+    Pos: {x: 36, y: 9}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 199
+    gridindex2: 201
+    Pos: {x: 36, y: 10}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 5
+    gridindex1: 200
+    gridindex2: 202
+    Pos: {x: 36, y: 11}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 5
+    gridindex1: 201
+    gridindex2: 202
+    Pos: {x: 37, y: 10}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 5
+    gridindex1: 204
+    gridindex2: 201
+    Pos: {x: 37, y: 9}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 201
+    gridindex2: 211
+    Pos: {x: 37, y: 10}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 202
+    gridindex2: -1
+    Pos: {x: 37, y: 11}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 202
+    gridindex2: 212
+    Pos: {x: 37, y: 11}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 5
+    gridindex1: 203
+    gridindex2: 204
+    Pos: {x: 37, y: 8}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 203
+    Pos: {x: 37, y: 7}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 5
+    gridindex1: 203
+    gridindex2: 205
+    Pos: {x: 37, y: 8}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 209
+    gridindex2: 203
+    Pos: {x: 36, y: 8}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 5
+    gridindex1: 204
+    gridindex2: 206
+    Pos: {x: 37, y: 9}
+    wallDir: 0
+    wallType: 2
+  - colorindex: 5
+    gridindex1: 210
+    gridindex2: 204
+    Pos: {x: 36, y: 9}
+    wallDir: 0
+    wallType: 1
+  - colorindex: 5
+    gridindex1: 205
+    gridindex2: 206
+    Pos: {x: 38, y: 8}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 205
+    Pos: {x: 38, y: 7}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 205
+    gridindex2: -1
+    Pos: {x: 38, y: 8}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 5
+    gridindex1: 206
+    gridindex2: 211
+    Pos: {x: 38, y: 9}
+    wallDir: 1
+    wallType: 1
+  - colorindex: 0
+    gridindex1: 206
+    gridindex2: -1
+    Pos: {x: 38, y: 9}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 5
+    gridindex1: 207
+    gridindex2: 208
+    Pos: {x: 35, y: 8}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 207
+    Pos: {x: 35, y: 7}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 207
+    gridindex2: 209
+    Pos: {x: 35, y: 8}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 207
+    Pos: {x: 34, y: 8}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 208
+    gridindex2: 210
+    Pos: {x: 35, y: 9}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 208
+    Pos: {x: 34, y: 9}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 5
+    gridindex1: 209
+    gridindex2: 210
+    Pos: {x: 36, y: 8}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: -1
+    gridindex2: 209
+    Pos: {x: 36, y: 7}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 5
+    gridindex1: 211
+    gridindex2: 212
+    Pos: {x: 38, y: 10}
+    wallDir: 1
+    wallType: 2
+  - colorindex: 0
+    gridindex1: 211
+    gridindex2: -1
+    Pos: {x: 38, y: 10}
+    wallDir: 0
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 212
+    gridindex2: -1
+    Pos: {x: 38, y: 11}
+    wallDir: 1
+    wallType: 0
+  - colorindex: 0
+    gridindex1: 212
+    gridindex2: -1
+    Pos: {x: 38, y: 11}
+    wallDir: 0
+    wallType: 0
+  DotData:
+  - Pos: {x: 11, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 52000000020000000400000000000000
+  - Pos: {x: 11, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 02000000ffffffff0500000001000000
+  - Pos: {x: 10, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 03000000ffffffff010000000f000000
+  - Pos: {x: 10, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff03000000000000000e000000
+  - Pos: {x: 12, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 51000000060000000700000004000000
+  - Pos: {x: 12, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 060000003f0000000800000005000000
+  - Pos: {x: 13, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff09000000ffffffff07000000
+  - Pos: {x: 13, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 090000003e0000003c00000008000000
+  - Pos: {x: 9, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff0c0000000e0000000a000000
+  - Pos: {x: 9, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 0c000000ffffffff0f0000000b000000
+  - Pos: {x: 8, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 0d000000190000000b00000017000000
+  - Pos: {x: 8, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff0d0000000a0000001a000000
+  - Pos: {x: 7, y: 10}
+    isWall: 0
+    colorindex: 0
+    wallindexes: 15000000120000001700000010000000
+  - Pos: {x: 7, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 120000001c0000001800000011000000
+  - Pos: {x: 6, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 130000001d0000001100000020000000
+  - Pos: {x: 6, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 160000001300000010000000ffffffff
+  - Pos: {x: 7, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff150000001a00000014000000
+  - Pos: {x: 6, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff1600000014000000ffffffff
+  - Pos: {x: 8, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 190000001f0000002700000018000000
+  - Pos: {x: 7, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 1c000000ffffffff1e0000001b000000
+  - Pos: {x: 6, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 1d000000ffffffff1b00000021000000
+  - Pos: {x: 8, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 1f00000026000000230000001e000000
+  - Pos: {x: 5, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 22000000ffffffff21000000ffffffff
+  - Pos: {x: 5, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff2200000020000000ffffffff
+  - Pos: {x: 9, y: 8}
+    isWall: 0
+    colorindex: 0
+    wallindexes: 28000000250000002900000023000000
+  - Pos: {x: 9, y: 7}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 25000000ffffffff2a00000024000000
+  - Pos: {x: 8, y: 7}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 26000000ffffffff24000000ffffffff
+  - Pos: {x: 9, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff280000002c00000027000000
+  - Pos: {x: 10, y: 8}
+    isWall: 0
+    colorindex: 0
+    wallindexes: 2d0000002b0000002e00000029000000
+  - Pos: {x: 10, y: 7}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 2b000000ffffffff2f0000002a000000
+  - Pos: {x: 10, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff2d000000310000002c000000
+  - Pos: {x: 11, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 3200000030000000340000002e000000
+  - Pos: {x: 11, y: 7}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 30000000ffffffffffffffff2f000000
+  - Pos: {x: 11, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff320000003300000031000000
+  - Pos: {x: 12, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 3f000000350000003600000033000000
+  - Pos: {x: 12, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 35000000ffffffff3700000034000000
+  - Pos: {x: 13, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 3e000000380000003900000036000000
+  - Pos: {x: 13, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 38000000ffffffff3a00000037000000
+  - Pos: {x: 14, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 3d0000003b0000004100000039000000
+  - Pos: {x: 14, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 3b000000ffffffffffffffff3a000000
+  - Pos: {x: 14, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff3d000000400000003c000000
+  - Pos: {x: 15, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff420000004300000040000000
+  - Pos: {x: 15, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 42000000ffffffff4400000041000000
+  - Pos: {x: 16, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 4b000000450000004600000043000000
+  - Pos: {x: 16, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 45000000ffffffff4700000044000000
+  - Pos: {x: 17, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 4a000000480000008000000046000000
+  - Pos: {x: 17, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 48000000a7000000a400000047000000
+  - Pos: {x: 17, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff4a0000007f00000049000000
+  - Pos: {x: 16, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff4b00000049000000ffffffff
+  - Pos: {x: 11, y: 15}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 5d0000004e000000590000004c000000
+  - Pos: {x: 11, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 4e00000058000000560000004d000000
+  - Pos: {x: 10, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 4f000000620000004d00000068000000
+  - Pos: {x: 10, y: 15}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff4f0000004c0000006a000000
+  - Pos: {x: 12, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 5400000051000000ffffffff50000000
+  - Pos: {x: 11, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 55000000520000005000000063000000
+  - Pos: {x: 12, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 5700000054000000ffffffff53000000
+  - Pos: {x: 11, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 58000000550000005300000061000000
+  - Pos: {x: 12, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 5a00000057000000ffffffff56000000
+  - Pos: {x: 12, y: 15}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 5c0000005a000000ffffffff59000000
+  - Pos: {x: 12, y: 16}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 5f0000005c000000ffffffff5b000000
+  - Pos: {x: 11, y: 16}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 600000005d0000005b0000006d000000
+  - Pos: {x: 12, y: 17}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff5f000000ffffffff5e000000
+  - Pos: {x: 11, y: 17}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff600000005e0000006c000000
+  - Pos: {x: 10, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 62000000640000006100000065000000
+  - Pos: {x: 10, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 64000000ffffffff6300000066000000
+  - Pos: {x: 9, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 67000000ffffffff66000000ffffffff
+  - Pos: {x: 9, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 690000006700000065000000ffffffff
+  - Pos: {x: 9, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 6b0000006900000068000000ffffffff
+  - Pos: {x: 9, y: 15}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff6b0000006a000000ffffffff
+  - Pos: {x: 10, y: 16}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 6e000000ffffffff6d000000ffffffff
+  - Pos: {x: 10, y: 17}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff6e0000006c000000ffffffff
+  - Pos: {x: 19, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff71000000730000006f000000
+  - Pos: {x: 19, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 71000000830000007400000070000000
+  - Pos: {x: 18, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 7200000081000000700000007f000000
+  - Pos: {x: 18, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff720000006f000000ffffffff
+  - Pos: {x: 20, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff750000007d00000073000000
+  - Pos: {x: 20, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 75000000a30000007e00000074000000
+  - Pos: {x: 22, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 98000000780000007a00000076000000
+  - Pos: {x: 22, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 78000000bd0000007b00000077000000
+  - Pos: {x: 21, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 79000000be000000770000007e000000
+  - Pos: {x: 21, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff79000000760000007d000000
+  - Pos: {x: 23, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 970000007c0000009b0000007a000000
+  - Pos: {x: 23, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 7c000000ffffffff9c0000007b000000
+  - Pos: {x: 18, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 81000000ab0000008200000080000000
+  - Pos: {x: 19, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 83000000a20000009f00000082000000
+  - Pos: {x: 26, y: 15}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff860000008800000084000000
+  - Pos: {x: 26, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 86000000ffffffff8900000085000000
+  - Pos: {x: 25, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 870000008d000000850000008b000000
+  - Pos: {x: 25, y: 15}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff87000000840000008f000000
+  - Pos: {x: 27, y: 15}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff8a000000ffffffff88000000
+  - Pos: {x: 27, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 8a000000ffffffffffffffff89000000
+  - Pos: {x: 25, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 8d000000c5000000c60000008c000000
+  - Pos: {x: 24, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 8e0000009e0000008c00000096000000
+  - Pos: {x: 24, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 900000008e0000008b00000095000000
+  - Pos: {x: 24, y: 15}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff900000008f00000099000000
+  - Pos: {x: 23, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 9a000000930000009500000091000000
+  - Pos: {x: 23, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 93000000970000009600000092000000
+  - Pos: {x: 22, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 940000009800000092000000ffffffff
+  - Pos: {x: 22, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff9400000091000000ffffffff
+  - Pos: {x: 23, y: 15}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff9a00000099000000ffffffff
+  - Pos: {x: 24, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 9e0000009d000000bf0000009b000000
+  - Pos: {x: 24, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 9d000000cf000000c00000009c000000
+  - Pos: {x: 20, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: a3000000a1000000ffffffff9f000000
+  - Pos: {x: 20, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: a1000000ad000000ae000000a0000000
+  - Pos: {x: 19, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: a2000000aa000000a0000000a8000000
+  - Pos: {x: 18, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ab000000a6000000a8000000a4000000
+  - Pos: {x: 18, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: a6000000ffffffffa9000000a5000000
+  - Pos: {x: 17, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: a7000000ffffffffa5000000ffffffff
+  - Pos: {x: 19, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: aa000000ffffffffac000000a9000000
+  - Pos: {x: 20, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ad000000ffffffffaf000000ac000000
+  - Pos: {x: 21, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: b6000000b0000000b1000000ae000000
+  - Pos: {x: 21, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: b0000000ffffffffb2000000af000000
+  - Pos: {x: 22, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: b5000000b3000000b8000000b1000000
+  - Pos: {x: 22, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: b3000000ffffffffffffffffb2000000
+  - Pos: {x: 22, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: bd000000b5000000b7000000b4000000
+  - Pos: {x: 21, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: be000000b6000000b4000000ffffffff
+  - Pos: {x: 23, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffb9000000ba000000b7000000
+  - Pos: {x: 23, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: b9000000ffffffffbb000000b8000000
+  - Pos: {x: 24, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: cf000000bc000000ce000000ba000000
+  - Pos: {x: 24, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: bc000000e2000000df000000bb000000
+  - Pos: {x: 25, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: c5000000c1000000c2000000bf000000
+  - Pos: {x: 25, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: c1000000cd000000c3000000c0000000
+  - Pos: {x: 26, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: c7000000c4000000d1000000c2000000
+  - Pos: {x: 26, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: c4000000cc000000ffffffffc3000000
+  - Pos: {x: 26, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffc7000000d0000000c6000000
+  - Pos: {x: 26, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: cc000000ca000000ffffffffc8000000
+  - Pos: {x: 26, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ca000000e4000000e5000000c9000000
+  - Pos: {x: 25, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: cb000000e1000000c9000000df000000
+  - Pos: {x: 25, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: cd000000cb000000c8000000ce000000
+  - Pos: {x: 27, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffd2000000d3000000d0000000
+  - Pos: {x: 27, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: d2000000ffffffffd4000000d1000000
+  - Pos: {x: 28, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: db000000d5000000d6000000d3000000
+  - Pos: {x: 28, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: d5000000ffffffffd7000000d4000000
+  - Pos: {x: 29, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: da000000d8000000dd000000d6000000
+  - Pos: {x: 29, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: d8000000ffffffffffffffffd7000000
+  - Pos: {x: 29, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffda000000dc000000d9000000
+  - Pos: {x: 28, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffdb000000d9000000ffffffff
+  - Pos: {x: 30, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffde000000b0010000dc000000
+  - Pos: {x: 30, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: de000000ffffffffb1010000dd000000
+  - Pos: {x: 25, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: e1000000f0000000e3000000e0000000
+  - Pos: {x: 24, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: e2000000ed000000e0000000eb000000
+  - Pos: {x: 26, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: e4000000ffffffffe6000000e3000000
+  - Pos: {x: 27, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffe7000000e8000000e5000000
+  - Pos: {x: 27, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: e7000000ffffffffe9000000e6000000
+  - Pos: {x: 28, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffea000000ffffffffe8000000
+  - Pos: {x: 28, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ea000000ffffffffffffffffe9000000
+  - Pos: {x: 24, y: 7}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ed000000ffffffffef000000ec000000
+  - Pos: {x: 23, y: 7}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ee000000ffffffffec000000ffffffff
+  - Pos: {x: 23, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffee000000eb000000ffffffff
+  - Pos: {x: 25, y: 7}
+    isWall: 1
+    colorindex: 0
+    wallindexes: f0000000ffffffffffffffffef000000
+  - Pos: {x: 34, y: 20}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 03010000f3000000f9000000f1000000
+  - Pos: {x: 34, y: 19}
+    isWall: 1
+    colorindex: 0
+    wallindexes: f3000000fffffffffa000000f2000000
+  - Pos: {x: 33, y: 19}
+    isWall: 1
+    colorindex: 0
+    wallindexes: f4000000fffffffff2000000ffffffff
+  - Pos: {x: 33, y: 20}
+    isWall: 1
+    colorindex: 0
+    wallindexes: fffffffff4000000f1000000ffffffff
+  - Pos: {x: 38, y: 20}
+    isWall: 1
+    colorindex: 0
+    wallindexes: fffffffff7000000fffffffff5000000
+  - Pos: {x: 38, y: 19}
+    isWall: 1
+    colorindex: 0
+    wallindexes: f7000000fffffffffffffffff6000000
+  - Pos: {x: 37, y: 19}
+    isWall: 1
+    colorindex: 0
+    wallindexes: f8000000fffffffff600000000010000
+  - Pos: {x: 37, y: 20}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 20010000f8000000f5000000ff000000
+  - Pos: {x: 35, y: 20}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 02010000fb000000fc000000f9000000
+  - Pos: {x: 35, y: 19}
+    isWall: 1
+    colorindex: 0
+    wallindexes: fb000000ee010000fd000000fa000000
+  - Pos: {x: 36, y: 20}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 14010000fe000000ff000000fc000000
+  - Pos: {x: 36, y: 19}
+    isWall: 1
+    colorindex: 0
+    wallindexes: fe000000ed01000000010000fd000000
+  - Pos: {x: 35, y: 21}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 05010000020100001301000001010000
+  - Pos: {x: 34, y: 21}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 060100000301000001010000ffffffff
+  - Pos: {x: 35, y: 22}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 08010000050100001501000004010000
+  - Pos: {x: 34, y: 22}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 09010000060100000401000057010000
+  - Pos: {x: 35, y: 23}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 0b010000080100001701000007010000
+  - Pos: {x: 34, y: 23}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 0c010000090100000701000056010000
+  - Pos: {x: 35, y: 24}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 0e0100000b010000190100000a010000
+  - Pos: {x: 34, y: 24}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 0f0100000c0100000a01000036010000
+  - Pos: {x: 35, y: 25}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 110100000e0100001b0100000d010000
+  - Pos: {x: 34, y: 25}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 120100000f0100000d01000035010000
+  - Pos: {x: 35, y: 26}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 59010000110100001d01000010010000
+  - Pos: {x: 34, y: 26}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 39010000120100001001000037010000
+  - Pos: {x: 36, y: 21}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 16010000140100001f01000013010000
+  - Pos: {x: 36, y: 22}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 18010000160100002101000015010000
+  - Pos: {x: 36, y: 23}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 1a010000180100002301000017010000
+  - Pos: {x: 36, y: 24}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 1c0100001a0100002501000019010000
+  - Pos: {x: 36, y: 25}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 1e0100001c010000270100001b010000
+  - Pos: {x: 36, y: 26}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 610100001e010000290100001d010000
+  - Pos: {x: 37, y: 21}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 2201000020010000490100001f010000
+  - Pos: {x: 37, y: 22}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 24010000220100004801000021010000
+  - Pos: {x: 37, y: 23}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 26010000240100003b01000023010000
+  - Pos: {x: 37, y: 24}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 28010000260100003a01000025010000
+  - Pos: {x: 37, y: 25}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 2a010000280100003d01000027010000
+  - Pos: {x: 37, y: 26}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 670100002a0100003f01000029010000
+  - Pos: {x: 33, y: 25}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 300100002d010000350100002b010000
+  - Pos: {x: 33, y: 24}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 2d01000054010000360100002c010000
+  - Pos: {x: 32, y: 24}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 2e010000550100002c010000ffffffff
+  - Pos: {x: 32, y: 25}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 310100002e0100002b010000ffffffff
+  - Pos: {x: 33, y: 26}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 3301000030010000370100002f010000
+  - Pos: {x: 32, y: 26}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 34010000310100002f010000ffffffff
+  - Pos: {x: 33, y: 27}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 85010000330100003801000032010000
+  - Pos: {x: 32, y: 27}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 860100003401000032010000ffffffff
+  - Pos: {x: 34, y: 27}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 5c010000390100005801000038010000
+  - Pos: {x: 38, y: 24}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 3e0100003c010000410100003a010000
+  - Pos: {x: 38, y: 23}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 3c0100004b010000420100003b010000
+  - Pos: {x: 38, y: 25}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 400100003e010000440100003d010000
+  - Pos: {x: 38, y: 26}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 7901000040010000460100003f010000
+  - Pos: {x: 39, y: 24}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 4501000043010000ffffffff41010000
+  - Pos: {x: 39, y: 23}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 430100004f010000ffffffff42010000
+  - Pos: {x: 39, y: 25}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 4701000045010000ffffffff44010000
+  - Pos: {x: 39, y: 26}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 7b01000047010000ffffffff46010000
+  - Pos: {x: 38, y: 22}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 4b0100004a0100004c01000048010000
+  - Pos: {x: 38, y: 21}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 4a010000ffffffff4d01000049010000
+  - Pos: {x: 39, y: 22}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 4f0100004e010000ffffffff4c010000
+  - Pos: {x: 39, y: 21}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 4e010000ffffffffffffffff4d010000
+  - Pos: {x: 33, y: 23}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 54010000520100005601000050010000
+  - Pos: {x: 33, y: 22}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 52010000ffffffff5701000051010000
+  - Pos: {x: 32, y: 22}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 53010000ffffffff51010000ffffffff
+  - Pos: {x: 32, y: 23}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 550100005301000050010000ffffffff
+  - Pos: {x: 35, y: 27}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 5b010000590100006001000058010000
+  - Pos: {x: 35, y: 28}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 5e0100005b010000620100005a010000
+  - Pos: {x: 34, y: 28}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 5f0100005c0100005a01000093010000
+  - Pos: {x: 35, y: 29}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 6e0100005e010000640100005d010000
+  - Pos: {x: 34, y: 29}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 960100005f0100005d01000094010000
+  - Pos: {x: 36, y: 27}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 63010000610100006601000060010000
+  - Pos: {x: 36, y: 28}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 65010000630100006801000062010000
+  - Pos: {x: 36, y: 29}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 6d010000650100006a01000064010000
+  - Pos: {x: 37, y: 27}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 69010000670100007801000066010000
+  - Pos: {x: 37, y: 28}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 6b010000690100007c01000068010000
+  - Pos: {x: 37, y: 29}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff6b0100007e0100006a010000
+  - Pos: {x: 36, y: 30}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 700100006d010000ffffffff6c010000
+  - Pos: {x: 35, y: 30}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 710100006e0100006c010000ffffffff
+  - Pos: {x: 36, y: 31}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 7301000070010000ffffffff6f010000
+  - Pos: {x: 35, y: 31}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 74010000710100006f010000ffffffff
+  - Pos: {x: 36, y: 32}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 7601000073010000ffffffff72010000
+  - Pos: {x: 35, y: 32}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 770100007401000072010000ffffffff
+  - Pos: {x: 36, y: 33}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 9c010000760100009f01000075010000
+  - Pos: {x: 35, y: 33}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 9d0100007701000075010000ffffffff
+  - Pos: {x: 38, y: 27}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 7d010000790100007a01000078010000
+  - Pos: {x: 39, y: 27}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 810100007b010000ffffffff7a010000
+  - Pos: {x: 38, y: 28}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 7f0100007d010000800100007c010000
+  - Pos: {x: 38, y: 29}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff7f010000820100007e010000
+  - Pos: {x: 39, y: 28}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 8301000081010000ffffffff80010000
+  - Pos: {x: 39, y: 29}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff83010000ffffffff82010000
+  - Pos: {x: 33, y: 28}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 88010000850100009301000084010000
+  - Pos: {x: 32, y: 28}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 890100008601000084010000ffffffff
+  - Pos: {x: 33, y: 29}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 8b010000880100009401000087010000
+  - Pos: {x: 32, y: 29}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 8c0100008901000087010000ffffffff
+  - Pos: {x: 33, y: 30}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 8e0100008b010000950100008a010000
+  - Pos: {x: 32, y: 30}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 8f0100008c0100008a010000ffffffff
+  - Pos: {x: 33, y: 31}
+    isWall: 0
+    colorindex: 3
+    wallindexes: 910100008e010000970100008d010000
+  - Pos: {x: 32, y: 31}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 920100008f0100008d010000ffffffff
+  - Pos: {x: 33, y: 32}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff910100009901000090010000
+  - Pos: {x: 32, y: 32}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff9201000090010000ffffffff
+  - Pos: {x: 34, y: 30}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 9801000096010000ffffffff95010000
+  - Pos: {x: 34, y: 31}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 9a01000098010000ffffffff97010000
+  - Pos: {x: 34, y: 32}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff9a010000ffffffff99010000
+  - Pos: {x: 36, y: 34}
+    isWall: 1
+    colorindex: 0
+    wallindexes: a90100009c0100009e0100009b010000
+  - Pos: {x: 35, y: 34}
+    isWall: 1
+    colorindex: 0
+    wallindexes: a30100009d0100009b010000a2010000
+  - Pos: {x: 37, y: 34}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ad010000a0010000ffffffff9e010000
+  - Pos: {x: 37, y: 33}
+    isWall: 1
+    colorindex: 0
+    wallindexes: a0010000ffffffffffffffff9f010000
+  - Pos: {x: 35, y: 35}
+    isWall: 0
+    colorindex: 3
+    wallindexes: a6010000a3010000a8010000a1010000
+  - Pos: {x: 34, y: 34}
+    isWall: 1
+    colorindex: 0
+    wallindexes: a4010000ffffffffa2010000ffffffff
+  - Pos: {x: 34, y: 35}
+    isWall: 1
+    colorindex: 0
+    wallindexes: a7010000a4010000a1010000ffffffff
+  - Pos: {x: 35, y: 36}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffa6010000aa010000a5010000
+  - Pos: {x: 34, y: 36}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffa7010000a5010000ffffffff
+  - Pos: {x: 36, y: 35}
+    isWall: 0
+    colorindex: 3
+    wallindexes: ab010000a9010000ac010000a8010000
+  - Pos: {x: 36, y: 36}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffab010000ae010000aa010000
+  - Pos: {x: 37, y: 35}
+    isWall: 1
+    colorindex: 0
+    wallindexes: af010000ad010000ffffffffac010000
+  - Pos: {x: 37, y: 36}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffaf010000ffffffffae010000
+  - Pos: {x: 31, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: b8010000b2010000b3010000b0010000
+  - Pos: {x: 31, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: b2010000ffffffffb4010000b1010000
+  - Pos: {x: 32, y: 14}
+    isWall: 0
+    colorindex: 4
+    wallindexes: b7010000b5010000b9010000b3010000
+  - Pos: {x: 32, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: b5010000ffffffffba010000b4010000
+  - Pos: {x: 32, y: 15}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffb7010000bc010000b6010000
+  - Pos: {x: 31, y: 15}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffb8010000b6010000ffffffff
+  - Pos: {x: 33, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: bd010000bb010000c2010000b9010000
+  - Pos: {x: 33, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: bb010000c1010000be010000ba010000
+  - Pos: {x: 33, y: 15}
+    isWall: 1
+    colorindex: 0
+    wallindexes: c8010000bd010000c4010000bc010000
+  - Pos: {x: 34, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: c3010000c0010000ca010000be010000
+  - Pos: {x: 34, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: c0010000f6010000f8010000bf010000
+  - Pos: {x: 33, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: c1010000f7010000bf010000ffffffff
+  - Pos: {x: 34, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: c5010000c3010000c9010000c2010000
+  - Pos: {x: 34, y: 15}
+    isWall: 1
+    colorindex: 0
+    wallindexes: c7010000c5010000cc010000c4010000
+  - Pos: {x: 34, y: 16}
+    isWall: 1
+    colorindex: 0
+    wallindexes: de010000c7010000e4010000c6010000
+  - Pos: {x: 33, y: 16}
+    isWall: 1
+    colorindex: 0
+    wallindexes: df010000c8010000c6010000ffffffff
+  - Pos: {x: 35, y: 14}
+    isWall: 0
+    colorindex: 4
+    wallindexes: cd010000cb010000ce010000c9010000
+  - Pos: {x: 35, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: cb010000ffffffffcf010000ca010000
+  - Pos: {x: 35, y: 15}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffcd010000d1010000cc010000
+  - Pos: {x: 36, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: d2010000d0010000d3010000ce010000
+  - Pos: {x: 36, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: d0010000ffffffffd4010000cf010000
+  - Pos: {x: 36, y: 15}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffd2010000d6010000d1010000
+  - Pos: {x: 37, y: 14}
+    isWall: 0
+    colorindex: 4
+    wallindexes: d7010000d5010000d8010000d3010000
+  - Pos: {x: 37, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: d5010000ffffffffd9010000d4010000
+  - Pos: {x: 37, y: 15}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffd7010000db010000d6010000
+  - Pos: {x: 38, y: 14}
+    isWall: 1
+    colorindex: 0
+    wallindexes: dc010000da010000ffffffffd8010000
+  - Pos: {x: 38, y: 13}
+    isWall: 1
+    colorindex: 0
+    wallindexes: da010000ffffffffffffffffd9010000
+  - Pos: {x: 38, y: 15}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffdc010000ffffffffdb010000
+  - Pos: {x: 34, y: 17}
+    isWall: 0
+    colorindex: 4
+    wallindexes: e1010000de010000e3010000dd010000
+  - Pos: {x: 33, y: 17}
+    isWall: 1
+    colorindex: 0
+    wallindexes: e2010000df010000dd010000ffffffff
+  - Pos: {x: 34, y: 18}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffe1010000e6010000e0010000
+  - Pos: {x: 33, y: 18}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffffe2010000e0010000ffffffff
+  - Pos: {x: 35, y: 17}
+    isWall: 0
+    colorindex: 4
+    wallindexes: e7010000e5010000e8010000e3010000
+  - Pos: {x: 35, y: 16}
+    isWall: 1
+    colorindex: 0
+    wallindexes: e5010000ffffffffe9010000e4010000
+  - Pos: {x: 35, y: 18}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ee010000e7010000eb010000e6010000
+  - Pos: {x: 36, y: 17}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ec010000ea010000ef010000e8010000
+  - Pos: {x: 36, y: 16}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ea010000fffffffff0010000e9010000
+  - Pos: {x: 36, y: 18}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ed010000ec010000ffffffffeb010000
+  - Pos: {x: 37, y: 17}
+    isWall: 1
+    colorindex: 0
+    wallindexes: fffffffff1010000f2010000ef010000
+  - Pos: {x: 37, y: 16}
+    isWall: 1
+    colorindex: 0
+    wallindexes: f1010000fffffffff3010000f0010000
+  - Pos: {x: 38, y: 17}
+    isWall: 1
+    colorindex: 0
+    wallindexes: fffffffff4010000fffffffff2010000
+  - Pos: {x: 38, y: 16}
+    isWall: 1
+    colorindex: 0
+    wallindexes: f4010000fffffffffffffffff3010000
+  - Pos: {x: 34, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: f601000003020000f9010000f5010000
+  - Pos: {x: 33, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: f7010000fffffffff5010000ffffffff
+  - Pos: {x: 35, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: fffffffffa010000fb010000f8010000
+  - Pos: {x: 35, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: fa01000002020000fc010000f9010000
+  - Pos: {x: 36, y: 12}
+    isWall: 1
+    colorindex: 0
+    wallindexes: fffffffffd010000fffffffffb010000
+  - Pos: {x: 36, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: fd010000070200000b020000fc010000
+  - Pos: {x: 35, y: 10}
+    isWall: 0
+    colorindex: 5
+    wallindexes: 020200000002000004020000fe010000
+  - Pos: {x: 35, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 000200001c02000005020000ff010000
+  - Pos: {x: 34, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 010200001d020000ff010000ffffffff
+  - Pos: {x: 34, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 0302000001020000fe010000ffffffff
+  - Pos: {x: 36, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 07020000060200000802000004020000
+  - Pos: {x: 36, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 06020000120200000902000005020000
+  - Pos: {x: 37, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 0c0200000a0200002002000008020000
+  - Pos: {x: 37, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 0a020000110200001602000009020000
+  - Pos: {x: 37, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff0c020000220200000b020000
+  - Pos: {x: 37, y: 8}
+    isWall: 0
+    colorindex: 5
+    wallindexes: 110200000f020000130200000d020000
+  - Pos: {x: 37, y: 7}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 0f020000ffffffff140200000e020000
+  - Pos: {x: 36, y: 7}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 10020000ffffffff0e0200001f020000
+  - Pos: {x: 36, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 12020000100200000d0200001e020000
+  - Pos: {x: 38, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 1702000015020000ffffffff13020000
+  - Pos: {x: 38, y: 7}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 15020000ffffffffffffffff14020000
+  - Pos: {x: 38, y: 9}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 2102000017020000ffffffff16020000
+  - Pos: {x: 35, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 1c0200001a0200001e02000018020000
+  - Pos: {x: 35, y: 7}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 1a020000ffffffff1f02000019020000
+  - Pos: {x: 34, y: 7}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 1b020000ffffffff19020000ffffffff
+  - Pos: {x: 34, y: 8}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 1d0200001b02000018020000ffffffff
+  - Pos: {x: 38, y: 10}
+    isWall: 1
+    colorindex: 0
+    wallindexes: 2302000021020000ffffffff20020000
+  - Pos: {x: 38, y: 11}
+    isWall: 1
+    colorindex: 0
+    wallindexes: ffffffff23020000ffffffff22020000

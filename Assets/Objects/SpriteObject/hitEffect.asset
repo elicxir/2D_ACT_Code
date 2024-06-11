@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a413e0d7c790554095619bf044ec574, type: 3}
+  m_Name: hitEffect
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 0}
+  terrainMode: 0
+  generatePrefab: 0
+  activeMode: 0
+  layerMode: 0
+  Accelerate: {x: 0, y: 0}
+  Start:
+    Sprites: []
+    Speed: 1
+  Middle:
+    Sprites:
+    - {fileID: 7596246961216028242, guid: e10944df228510745a8ee632ec2af56c, type: 3}
+    - {fileID: -6000142271927722160, guid: e10944df228510745a8ee632ec2af56c, type: 3}
+    - {fileID: -3766208034105015624, guid: e10944df228510745a8ee632ec2af56c, type: 3}
+    Speed: 15
+  End:
+    Sprites: []
+    Speed: 1
+  StartTime: 0
+  MiddleTime: 0.2
+  EndTime: 0

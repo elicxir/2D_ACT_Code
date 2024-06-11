@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c3f5d521fb0cb14a9d0992f9570d4a3, type: 3}
+  m_Name: SkeltonParts
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 0}
+  terrainMode: 0
+  generatePrefab: 0
+  activeMode: 0
+  layerMode: 0
+  Accelerate: {x: 0, y: -560}
+  DeactiveTimer: 5
+  sprites:
+  - {fileID: -1197577816848130436, guid: 6225aa03f3a031d4da81ec18b245b48a, type: 3}
+  - {fileID: 4922383878000675037, guid: 6225aa03f3a031d4da81ec18b245b48a, type: 3}
+  - {fileID: -6264774445277100731, guid: 6225aa03f3a031d4da81ec18b245b48a, type: 3}
+  - {fileID: 2482346791377976554, guid: 6225aa03f3a031d4da81ec18b245b48a, type: 3}
+  - {fileID: -5464810365749938376, guid: 6225aa03f3a031d4da81ec18b245b48a, type: 3}
+  - {fileID: 546246333269537473, guid: 6225aa03f3a031d4da81ec18b245b48a, type: 3}
+  - {fileID: -8241271847198223077, guid: 6225aa03f3a031d4da81ec18b245b48a, type: 3}
+  - {fileID: -8349377667086148821, guid: 6225aa03f3a031d4da81ec18b245b48a, type: 3}
+  - {fileID: 4246485826610626498, guid: 6225aa03f3a031d4da81ec18b245b48a, type: 3}
+  - {fileID: 1067115145634097972, guid: 6225aa03f3a031d4da81ec18b245b48a, type: 3}
+  - {fileID: 3552376032765202571, guid: 6225aa03f3a031d4da81ec18b245b48a, type: 3}

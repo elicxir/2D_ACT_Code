@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bd5d9956b338e946b71b561216a3210, type: 3}
+  m_Name: EAS_ScullDragon (fang)
+  m_EditorClassIdentifier: 
+  ac_Sets:
+  - dataSet: {fileID: 11400000, guid: 26a2416a25fdb29489f470b916facec8, type: 2}
+    isUse: 1
+  - dataSet: {fileID: 11400000, guid: fde87432244dff2439c9b6d49cb32d65, type: 2}
+    isUse: 1
+  - dataSet: {fileID: 11400000, guid: fde87432244dff2439c9b6d49cb32d65, type: 2}
+    isUse: 1
+  - dataSet: {fileID: 11400000, guid: fde87432244dff2439c9b6d49cb32d65, type: 2}
+    isUse: 1
+  hitbox_set:
+  - HitBoxData: {fileID: 11400000, guid: c4bb7eb970b3faa4d8254b3e2e7273aa, type: 2}
+    isUse: 1
+  - HitBoxData: {fileID: 11400000, guid: 70edb23dca9fd0e4a907a621b0d7994c, type: 2}
+    isUse: 1
+  - HitBoxData: {fileID: 11400000, guid: 4138ac4e53773964ab8ddc0b142bf21a, type: 2}
+    isUse: 1
+  - HitBoxData: {fileID: 11400000, guid: 4138ac4e53773964ab8ddc0b142bf21a, type: 2}
+    isUse: 1
+  offset: {x: -90, y: 0}

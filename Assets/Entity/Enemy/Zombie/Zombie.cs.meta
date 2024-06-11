@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a851edcfed5f31a458e2c9d50f788fbc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - statsData: {fileID: 11400000, guid: a1f9932c16dc4c54aa4bb5c04fe658e3, type: 2}
+  - TerrainHitBox: {instanceID: 0}
+  - Stats: {instanceID: 0}
+  - EntityAnimator: {instanceID: 0}
+  - clip: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152c51429c8bc83479b8fa6ec133854d, type: 3}
+  m_Name: PoisonBreathe
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: -1194298412059105055, guid: e045a4e1590b8984cba27f087b4fa912, type: 3}
+  - {fileID: 2603224393129739506, guid: e045a4e1590b8984cba27f087b4fa912, type: 3}
+  - {fileID: 309456388720946470, guid: e045a4e1590b8984cba27f087b4fa912, type: 3}
+  - {fileID: 8787719114648426861, guid: e045a4e1590b8984cba27f087b4fa912, type: 3}
+  AnimationSpeed: 8
+  dataset:
+  - dataSet: {fileID: 11400000, guid: a0f8cb9daf822d942b83a4d974a0a90c, type: 2}
+    offset: {x: 0, y: 0}
+    size: {x: 20, y: 20}
+    isUse: 1
+  Remain: 1
+  activeMode: 2
+  hitType: 0
+  rotateType: 0
+  DontDestroyOnSectionChange: 0

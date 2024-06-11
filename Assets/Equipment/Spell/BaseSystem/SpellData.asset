@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e41465556f0ea4589945bd7f6ba6fe, type: 3}
+  m_Name: SpellData
+  m_EditorClassIdentifier: 
+  sheets:
+  - name: Sheet1
+    list:
+    - name: "\u30C0\u30AC\u30FC\u30CA\u30A4\u30D5"
+      desc: "\u524D\u65B9\u306B\u7D20\u65E9\u304F\u30CA\u30A4\u30D5\u3092\u6295\u3052\u308B"
+      flavor1: "\u3053\u308C\u8AB0\u306E\u9854\uFF1F"
+      flavor2: "\u89E3\u50CF\u5EA6\u304C\u8352\u304F\u3066\u3088\u304F\u308F\u304B\u3093\u306A\u3044\u3084\u2026"
+      flavor3: "\u3042\u3042\u3042\u3042\u3042"
+      flavor4: "\u3042\u3042\u3042\u3042\u3042"
+      empower_time: 0
+      MP: 28
+      empowered_MP: 0
+      type: 0
+    - name: "\u30C8\u30EA\u30D7\u30EB\u30C0\u30AC\u30FC"
+      desc: "\u524D\u65B9\u306B\u4E09\u672C\u306E\u30CA\u30A4\u30D5\u3092\u6295\u3052\u308B"
+      flavor1: "51\u53F7\u9928\u3092\u7834\u58CA\u3059\u308B\u3068\u3044\u3046\u4F1D\u7D71\u306B\u306E\u3063\u3068\u3063\u3066"
+      flavor2: "\u524D\u65B9\u306B51\u53F7\u9928\u3092\u6295\u3052\u3064\u3051\u308B"
+      flavor3: "\u3042\u3042\u3042\u3042\u3042"
+      flavor4: "\u3042\u3042\u3042\u3042\u3042"
+      empower_time: 0
+      MP: 96
+      empowered_MP: 0
+      type: 0
+    - name: "\u30F4\u30A7\u30CE\u30E0\u30C0\u30AC\u30FC"
+      desc: "\u524D\u65B9\u306B\u6BD2\u3092\u306C\u3063\u305F\u30CA\u30A4\u30D5\u3092\u6295\u3052\u308B"
+      flavor1: "\u3042\u3042\u3042\u3042\u3042"
+      flavor2: "\u3042\u3042\u3042\u3042\u3042"
+      flavor3: "\u3042\u3042\u3042\u3042\u3042"
+      flavor4: "\u3042\u3042\u3042\u3042\u3042"
+      empower_time: 0
+      MP: 48
+      empowered_MP: 0
+      type: 0
+    - name: "\u5FE0\u8AA0\u306E\u5203"
+      desc: "\u624B\u5143\u306B\u623B\u308B\u77ED\u5C04\u7A0B\u306E\u30CA\u30A4\u30D5\u3092\u8907\u6570\u6295\u3052\u308B"
+      flavor1: "\u3042\u3042\u3042\u3042\u3042"
+      flavor2: "\u3042\u3042\u3042\u3042\u3042"
+      flavor3: "\u3042\u3042\u3042\u3042\u3042"
+      flavor4: "\u3042\u3042\u3042\u3042\u3042"
+      empower_time: 0
+      MP: 160
+      empowered_MP: 0
+      type: 0
+    - name: "\u30CF\u30F3\u30C9\u30A2\u30AF\u30B9"
+      desc: "\u659C\u3081\u524D\u306B\u653E\u7269\u7DDA\u3092\u63CF\u304F\u624B\u65A7\u3092\u6295\u3052\u308B"
+      flavor1: "\u3042\u3042\u3042\u3042\u3042"
+      flavor2: "\u3042\u3042\u3042\u3042\u3042"
+      flavor3: "\u3042\u3042\u3042\u3042\u3042"
+      flavor4: "\u3042\u3042\u3042\u3042\u3042"
+      empower_time: 0
+      MP: 85
+      empowered_MP: 0
+      type: 0
+    - name: "\u30EC\u30A4\u30D4\u30A2"
+      desc: "\u30EC\u30A4\u30D4\u30A2\u3067\u7A81\u304D\u3092\u884C\u3046"
+      flavor1: "\u3042\u3042\u3042\u3042\u3042"
+      flavor2: "\u3042\u3042\u3042\u3042\u3042"
+      flavor3: "\u3042\u3042\u3042\u3042\u3042"
+      flavor4: "\u3042\u3042\u3042\u3042\u3042"
+      empower_time: 0
+      MP: 42
+      empowered_MP: 0
+      type: 0
+    - name: "\u30EB\u30FC\u30F3\u30A2\u30ED\u30FC"
+      desc: "\u9B54\u529B\u306E\u5F13\u3092\u751F\u6210\u3057\u77E2\u3092\u653E\u3064"
+      flavor1: "\u3042\u3042\u3042\u3042\u3042"
+      flavor2: "\u3042\u3042\u3042\u3042\u3042"
+      flavor3: "\u3042\u3042\u3042\u3042\u3042"
+      flavor4: "\u3042\u3042\u3042\u3042\u3042"
+      empower_time: 480
+      MP: 50
+      empowered_MP: 200
+      type: 2
+    - name: "\u518D\u751F\u529B"
+      desc: "HP\u3092\u308F\u305A\u304B\u306B\u56DE\u5FA9\u3059\u308B"
+      flavor1: 
+      flavor2: 
+      flavor3: 
+      flavor4: 
+      empower_time: 0
+      MP: 100
+      empowered_MP: 0
+      type: 1
+    - name: "\u30B9\u30C8\u30FC\u30F3\u30B9\u30AD\u30F3"
+      desc: "\u767A\u52D5\u306B\u3088\u308A\u7269\u7406\u9632\u5FA1\u529B\u3092\u5927\u304D\u304F\u9AD8\u3081\u308B"
+      flavor1: 
+      flavor2: 
+      flavor3: 
+      flavor4: 
+      empower_time: 0
+      MP: 70
+      empowered_MP: 0
+      type: 1
+    - name: "\u30ED\u30F3\u30B0\u30D6\u30EC\u30A4\u30C9"
+      desc: "\u529B\u3092\u305F\u3081\u3066\u5927\u5263\u3092\u632F\u308A\u4E0B\u308D\u3059"
+      flavor1: 
+      flavor2: 
+      flavor3: 
+      flavor4: 
+      empower_time: 360
+      MP: 75
+      empowered_MP: 75
+      type: 2

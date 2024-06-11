@@ -1,0 +1,18 @@
+AttackColider(ゲーム内のエンティティ間当たり判定をすべて処理する)
+
+AttackHitBox(AttackColiderがあたるとそれに応じて処理を行う)
+
+	
+
+
+
+
+
+
+レイヤー
+	Default		UIやGMをおいておく
+	Terrain		地形
+	Player		プレイヤー
+	Enemy		敵
+	Projectile	飛翔物
+	ATK			攻撃の当たり判定はこのレイヤーで行う

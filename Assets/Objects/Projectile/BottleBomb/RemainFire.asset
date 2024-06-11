@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 382b9df7196930d40ab28cf51e483b76, type: 3}
+  m_Name: RemainFire
+  m_EditorClassIdentifier: 
+  AttackRatio:
+    slash: 0
+    hack: 0
+    magic: 0
+    fire: 10
+    ice: 0
+    thunder: 0
+    poison: 0
+    hurt: 0
+    curse: 0
+  buff:
+    ID: 
+    contents: []
+    timer: 0
+  ac_type: 3
+  hostileType: 0
+  durability: 0
+  isKnockBack: 0

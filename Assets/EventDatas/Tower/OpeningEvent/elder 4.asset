@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d424f04ce421048a81e420e409dce0, type: 3}
+  m_Name: elder 4
+  m_EditorClassIdentifier: 
+  content: "\u3060\u304C\u3001\u6C17\u3092\u4ED8\u3051\u306A\u3055\u308C\u2026\u2026\n\u5916\u306B\u306F\u7570\u5F62\u306E\u8005\u3069\u3082\u304C\u5F98\u5F8A\u3057\u3066\u304A\u308B\u2026"
+  speed: 18
+  isBubble: 1
+  offset: {x: 0, y: 16}
+  speaker: 1

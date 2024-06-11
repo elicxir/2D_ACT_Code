@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83f9c189b5a3614faf3ee342c0b2cad, type: 3}
+  m_Name: Cave
+  m_EditorClassIdentifier: 
+  AreaName: "\u53E4\u5854\u306E\u5730\u4E0B\u6D1E\u7A9F"
+  AreaColor: {r: 0.8490566, g: 0.36313882, b: 0, a: 1}
+  SectionDatas:
+  - Extent:
+      x: 11
+      y: 11
+      width: 3
+      height: 1
+    isHidden: 0
+  - Extent:
+      x: 9
+      y: 11
+      width: 2
+      height: 1
+    isHidden: 0
+  - Extent:
+      x: 7
+      y: 10
+      width: 2
+      height: 2
+    isHidden: 0
+  - Extent:
+      x: 7
+      y: 9
+      width: 2
+      height: 1
+    isHidden: 0
+  - Extent:
+      x: 6
+      y: 9
+      width: 1
+      height: 1
+    isHidden: 0
+  - Extent:
+      x: 9
+      y: 8
+      width: 3
+      height: 2
+    isHidden: 0
+  - Extent:
+      x: 12
+      y: 9
+      width: 2
+      height: 1
+    isHidden: 0
+  - Extent:
+      x: 14
+      y: 9
+      width: 1
+      height: 2
+    isHidden: 0
+  - Extent:
+      x: 13
+      y: 10
+      width: 1
+      height: 1
+    isHidden: 0
+  - Extent:
+      x: 15
+      y: 10
+      width: 2
+      height: 1
+    isHidden: 0
+  - Extent:
+      x: 17
+      y: 10
+      width: 1
+      height: 2
+    isHidden: 0

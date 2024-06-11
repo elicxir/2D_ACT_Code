@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb11c3c23482e54eb00a81743e9100c, type: 3}
+  m_Name: ScullDragon_Spine
+  m_EditorClassIdentifier: 
+  BaseDeffence:
+    slash: 600
+    hack: 600
+    magic: 200
+    fire: 200
+    ice: 200
+    thunder: 200
+    poison: 200
+    hurt: 200
+    curse: 200
+  durability: 0

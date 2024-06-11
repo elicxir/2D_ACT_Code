@@ -1,0 +1,358 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ebcf29b415521f46b0340c20ce0ca77, type: 3}
+  m_Name: MapData
+  m_EditorClassIdentifier: 
+  sheets:
+  - name: Sheet1
+    list:
+    - mapname: Basement
+      areaname: Basement
+      nameflag: 0
+      up: 1
+      down: 1
+      right: 1
+      left: 1
+      hidden: 1
+      R: 0
+      G: 0
+      B: 0
+    - mapname: "\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9"
+      areaname: entrance
+      nameflag: 0
+      up: 21
+      down: 21
+      right: 3
+      left: 1
+      hidden: 1
+      R: 0
+      G: 128
+      B: 128
+    - mapname: "\u304D\u3087\u3066\u3093"
+      areaname: "\u5927\u901A\u308A"
+      nameflag: 1
+      up: 19
+      down: 19
+      right: 43
+      left: 42
+      hidden: 0
+      R: 139
+      G: 69
+      B: 19
+    - mapname: "\u304D\u3087\u3066\u3093"
+      areaname: "\u793C\u62DD\u6240\u524D\u901A\u308A"
+      nameflag: 1
+      up: 21
+      down: 21
+      right: 43
+      left: 42
+      hidden: 0
+      R: 139
+      G: 69
+      B: 19
+    - mapname: "\u304D\u3087\u3066\u3093"
+      areaname: "\u5927\u901A\u308A"
+      nameflag: 1
+      up: 19
+      down: 19
+      right: 40
+      left: 38
+      hidden: 0
+      R: 139
+      G: 69
+      B: 19
+    - mapname: "\u304D\u3087\u3066\u3093"
+      areaname: "\u968E\u6BB51"
+      nameflag: 1
+      up: 22
+      down: 18
+      right: 41
+      left: 41
+      hidden: 0
+      R: 139
+      G: 69
+      B: 19
+    - mapname: "\u304D\u3087\u3066\u3093"
+      areaname: "\u5927\u901A\u308A"
+      nameflag: 1
+      up: 22
+      down: 22
+      right: 40
+      left: 38
+      hidden: 0
+      R: 139
+      G: 69
+      B: 19
+    - mapname: "\u304D\u3087\u3066\u3093"
+      areaname: "\u968E\u6BB51"
+      nameflag: 1
+      up: 22
+      down: 18
+      right: 37
+      left: 37
+      hidden: 0
+      R: 139
+      G: 69
+      B: 19
+    - mapname: "\u8A66\u4F5C\u306E\u68EE"
+      areaname: c
+      nameflag: 0
+      up: 21
+      down: 21
+      right: 11
+      left: 9
+      hidden: 1
+      R: 0
+      G: 51
+      B: 0
+    - mapname: "\u8A66\u4F5C\u306E\u68EE"
+      areaname: v
+      nameflag: 0
+      up: 21
+      down: 21
+      right: 12
+      left: 12
+      hidden: 1
+      R: 0
+      G: 51
+      B: 0
+    - mapname: "\u8A66\u4F5C\u306E\u68EE"
+      areaname: d
+      nameflag: 0
+      up: 22
+      down: 21
+      right: 14
+      left: 13
+      hidden: 1
+      R: 0
+      G: 51
+      B: 0
+    - mapname: "\u30D5\u30EB\u30B0\u30EA\u30A2\u8FD1\u90CA\u306E\u68EE"
+      areaname: "\u77F3\u306E\u5854"
+      nameflag: 0
+      up: 24
+      down: 23
+      right: 13
+      left: 13
+      hidden: 1
+      R: 0
+      G: 51
+      B: 0
+    - mapname: "\u6355\u56DA\u306E\u53E4\u5854"
+      areaname: "\u30B9\u30BF\u30FC\u30C8\u5730\u70B9"
+      nameflag: 1
+      up: 15
+      down: 15
+      right: 11
+      left: 11
+      hidden: 0
+      R: 255
+      G: 0
+      B: 255
+    - mapname: "\u6355\u56DA\u306E\u53E4\u5854"
+      areaname: "\u87BA\u65CB\u968E\u6BB5(\u53F3)"
+      nameflag: 1
+      up: 17
+      down: 12
+      right: 12
+      left: 12
+      hidden: 0
+      R: 255
+      G: 0
+      B: 255
+    - mapname: "\u6355\u56DA\u306E\u53E4\u5854"
+      areaname: "\u87BA\u65CB\u968E\u6BB5(\u53F3)"
+      nameflag: 1
+      up: 14
+      down: 14
+      right: 11
+      left: 11
+      hidden: 0
+      R: 255
+      G: 0
+      B: 255
+    - mapname: "\u6355\u56DA\u306E\u53E4\u5854"
+      areaname: "\u90E8\u5C4B"
+      nameflag: 1
+      up: 13
+      down: 13
+      right: 11
+      left: 11
+      hidden: 0
+      R: 255
+      G: 0
+      B: 255
+    - mapname: "\u6355\u56DA\u306E\u53E4\u5854"
+      areaname: "\u87BA\u65CB\u968E\u6BB5(\u5DE6)"
+      nameflag: 1
+      up: 15
+      down: 13
+      right: 10
+      left: 10
+      hidden: 0
+      R: 255
+      G: 0
+      B: 255
+    - mapname: "\u6355\u56DA\u306E\u53E4\u5854"
+      areaname: "\u87BA\u65CB\u968E\u6BB5(\u5DE6)"
+      nameflag: 1
+      up: 17
+      down: 16
+      right: 10
+      left: 10
+      hidden: 0
+      R: 255
+      G: 0
+      B: 255
+    - mapname: "\u6355\u56DA\u306E\u53E4\u5854"
+      areaname: "\u4E2D\u592E"
+      nameflag: 1
+      up: 17
+      down: 17
+      right: 11
+      left: 11
+      hidden: 0
+      R: 255
+      G: 0
+      B: 255
+    - mapname: "\u6355\u56DA\u306E\u53E4\u5854"
+      areaname: "\u30DC\u30B9\u90E8\u5C4B"
+      nameflag: 1
+      up: 20
+      down: 19
+      right: 12
+      left: 10
+      hidden: 0
+      R: 255
+      G: 0
+      B: 255
+    - mapname: "\u53E4\u5854\u306E\u5730\u4E0B\u6D1E\u7A9F"
+      areaname: "\u5165\u53E3"
+      nameflag: 1
+      up: 11
+      down: 11
+      right: 13
+      left: 11
+      hidden: 0
+      R: 0
+      G: 255
+      B: 255
+    - mapname: "\u53E4\u5854\u306E\u5730\u4E0B\u6D1E\u7A9F"
+      areaname: "\u6BD2\u6CBC"
+      nameflag: 1
+      up: 9
+      down: 8
+      right: 11
+      left: 9
+      hidden: 0
+      R: 0
+      G: 255
+      B: 255
+    - mapname: "\u53E4\u5854\u306E\u5730\u4E0B\u6D1E\u7A9F"
+      areaname: "\u7E26\u7A74"
+      nameflag: 1
+      up: 11
+      down: 10
+      right: 8
+      left: 7
+      hidden: 0
+      R: 0
+      G: 255
+      B: 255
+    - mapname: "\u53E4\u5854\u306E\u5730\u4E0B\u6D1E\u7A9F"
+      areaname: "\u51FA\u53E3"
+      nameflag: 1
+      up: 10
+      down: 9
+      right: 14
+      left: 14
+      hidden: 0
+      R: 0
+      G: 255
+      B: 255
+    - mapname: "\u53E4\u5854\u306E\u5730\u4E0B\u6D1E\u7A9F"
+      areaname: "\u30DC\u30B9\u90E8\u5C4B"
+      nameflag: 1
+      up: 10
+      down: 10
+      right: 16
+      left: 15
+      hidden: 0
+      R: 0
+      G: 255
+      B: 255
+    - mapname: "\u53E4\u5854\u306E\u5730\u4E0B\u6D1E\u7A9F"
+      areaname: "\u51FA\u53E3"
+      nameflag: 1
+      up: 12
+      down: 10
+      right: 17
+      left: 17
+      hidden: 0
+      R: 0
+      G: 255
+      B: 255
+    - mapname: "\u53E4\u5854\u306E\u5730\u4E0B\u6D1E\u7A9F"
+      areaname: "\u5165\u53E3"
+      nameflag: 1
+      up: 11
+      down: 11
+      right: 10
+      left: 9
+      hidden: 0
+      R: 0
+      G: 255
+      B: 255
+    - mapname: "\u53E4\u5854\u306E\u5730\u4E0B\u6D1E\u7A9F"
+      areaname: "\u7E26\u7A74"
+      nameflag: 1
+      up: 9
+      down: 9
+      right: 8
+      left: 7
+      hidden: 0
+      R: 0
+      G: 255
+      B: 255
+    - mapname: "\u53E4\u5854\u306E\u5730\u4E0B\u6D1E\u7A9F"
+      areaname: "\u6BD2\u6CBC"
+      nameflag: 1
+      up: 9
+      down: 9
+      right: 13
+      left: 12
+      hidden: 0
+      R: 0
+      G: 255
+      B: 255
+    - mapname: "\u53E4\u5854\u306E\u5730\u4E0B\u6D1E\u7A9F"
+      areaname: "\u51FA\u53E3"
+      nameflag: 1
+      up: 10
+      down: 10
+      right: 13
+      left: 13
+      hidden: 0
+      R: 0
+      G: 255
+      B: 255
+    - mapname: "\u53E4\u5854\u306E\u5730\u4E0B\u6D1E\u7A9F"
+      areaname: "\u96A0\u308C\u5BB6"
+      nameflag: 1
+      up: 9
+      down: 9
+      right: 6
+      left: 6
+      hidden: 0
+      R: 0
+      G: 255
+      B: 255

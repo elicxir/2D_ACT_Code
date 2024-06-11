@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152c51429c8bc83479b8fa6ec133854d, type: 3}
+  m_Name: PD_FallRock
+  m_EditorClassIdentifier: 
+  sprites: []
+  AnimationSpeed: 0
+  dataset:
+  - dataSet: {fileID: 11400000, guid: 6fe40f84aa6a78147b43c0f29e345216, type: 2}
+    isUse: 1
+  Remain: 1
+  activeMode: 0
+  hitType: 2
+  rotateType: 0
+  acc: {x: 0, y: -240}
+  DontDestroyOnSectionChange: 1

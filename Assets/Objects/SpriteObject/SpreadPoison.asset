@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3417dbbb5128e1b43a9301644c1f1d4a, type: 3}
+  m_Name: SpreadPoison
+  m_EditorClassIdentifier: 
+  Start:
+    Sprites: []
+    Speed: 1
+  Middle:
+    Sprites:
+    - {fileID: 922552348393836804, guid: 34197034afc029d499a635f4d9096dba, type: 3}
+    - {fileID: 4728619851661720865, guid: 34197034afc029d499a635f4d9096dba, type: 3}
+    - {fileID: 7941060304176224831, guid: 34197034afc029d499a635f4d9096dba, type: 3}
+    - {fileID: 8831357837227514609, guid: 34197034afc029d499a635f4d9096dba, type: 3}
+    - {fileID: -2975945610744447505, guid: 34197034afc029d499a635f4d9096dba, type: 3}
+    - {fileID: -9197716684564559149, guid: 34197034afc029d499a635f4d9096dba, type: 3}
+    Speed: 7
+  End:
+    Sprites: []
+    Speed: 1
+  StartTime: 0
+  MiddleTime: 0.85714287
+  EndTime: 0
+  generatePrefab: 0
+  activeMode: 0

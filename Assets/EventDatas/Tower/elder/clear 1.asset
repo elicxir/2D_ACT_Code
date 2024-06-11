@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d424f04ce421048a81e420e409dce0, type: 3}
+  m_Name: clear 1
+  m_EditorClassIdentifier: 
+  content: "\u4ECA\u5F8C\u3082\u5236\u4F5C\u3092\u7D9A\u3051\u3066\u3044\u304D\u307E\u3059\u306E\u3067\n\u304A\u697D\u3057\u307F\u306B\uFF01"
+  speed: 18
+  isBubble: 0
+  offset: {x: 0, y: 16}
+  speaker: 1

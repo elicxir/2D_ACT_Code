@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: pond
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -5411460701181773832, guid: 2f040362cebcf6145b8981ee9f5e38e6, type: 3}
+  - {fileID: -2290768394200350864, guid: 2f040362cebcf6145b8981ee9f5e38e6, type: 3}
+  - {fileID: 7212018391003799696, guid: 2f040362cebcf6145b8981ee9f5e38e6, type: 3}
+  - {fileID: -3670553275431300910, guid: 2f040362cebcf6145b8981ee9f5e38e6, type: 3}
+  - {fileID: 2615407116278743797, guid: 2f040362cebcf6145b8981ee9f5e38e6, type: 3}
+  - {fileID: -2317240764659754790, guid: 2f040362cebcf6145b8981ee9f5e38e6, type: 3}
+  - {fileID: 2195148346843596772, guid: 2f040362cebcf6145b8981ee9f5e38e6, type: 3}
+  - {fileID: -7398234621083142965, guid: 2f040362cebcf6145b8981ee9f5e38e6, type: 3}
+  m_MinSpeed: 4
+  m_MaxSpeed: 4
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0

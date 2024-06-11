@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152c51429c8bc83479b8fa6ec133854d, type: 3}
+  m_Name: wave
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 6192280772423491823, guid: 8906a08f13dc30643a8a8762f692fbef, type: 3}
+  - {fileID: -465039659864569119, guid: 8906a08f13dc30643a8a8762f692fbef, type: 3}
+  - {fileID: 2740720194661343841, guid: 8906a08f13dc30643a8a8762f692fbef, type: 3}
+  - {fileID: -8417068521833461829, guid: 8906a08f13dc30643a8a8762f692fbef, type: 3}
+  - {fileID: 6978329908214982250, guid: 8906a08f13dc30643a8a8762f692fbef, type: 3}
+  - {fileID: -7536759273393056264, guid: 8906a08f13dc30643a8a8762f692fbef, type: 3}
+  AnimationSpeed: 10
+  dataset:
+  - dataSet: {fileID: 11400000, guid: 80534fe74f9bc4f449daeba8f391ad93, type: 2}
+    offset: {x: -13, y: 0}
+    size: {x: 12, y: 48}
+    isUse: 1
+  - dataSet: {fileID: 11400000, guid: 80534fe74f9bc4f449daeba8f391ad93, type: 2}
+    offset: {x: -13, y: -8}
+    size: {x: 32, y: 32}
+    isUse: 1
+  Remain: 1
+  hitType: 0
+  rotateType: 0
+  DontDestroyOnSectionChange: 0

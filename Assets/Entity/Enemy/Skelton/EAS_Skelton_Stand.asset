@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bd5d9956b338e946b71b561216a3210, type: 3}
+  m_Name: EAS_Skelton_Stand
+  m_EditorClassIdentifier: 
+  ac_Sets:
+  - dataSet: {fileID: 11400000, guid: df6e6771df6700d44a6d2dd1ab59a5b8, type: 2}
+    isUse: 1
+  hitbox_set:
+  - HitBoxData: {fileID: 11400000, guid: c2ff8f921ff10924591f6f27bfc9a86b, type: 2}
+    isUse: 1
+  - HitBoxData: {fileID: 11400000, guid: c0251b243574c054186f1603c9b2997e, type: 2}
+    isUse: 1
+  offset: {x: 0, y: 1}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: prison
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -2412115938303608946, guid: 7cd2f2731144f3447b002ca792b9fa44, type: 3}
+  - {fileID: 9073647989385068304, guid: 7cd2f2731144f3447b002ca792b9fa44, type: 3}
+  - {fileID: 4133033089327182062, guid: 7cd2f2731144f3447b002ca792b9fa44, type: 3}
+  - {fileID: 6204148622426304112, guid: 7cd2f2731144f3447b002ca792b9fa44, type: 3}
+  m_MinSpeed: 5
+  m_MaxSpeed: 5
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0

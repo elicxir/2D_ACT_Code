@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d7353dd50a5b5438690cf7b85ff5bf, type: 3}
+  m_Name: cross
+  m_EditorClassIdentifier: 
+  color: {r: 1, g: 1, b: 1, a: 1}
+  sprite: {fileID: 21300000, guid: 6e77b28a45fe89247b483e624cd7f633, type: 3}
+  terrainMode: 0
+  generatePrefab: 0
+  activeMode: 0
+  layerMode: 1
+  Accelerate: {x: 0, y: 0}
+  DeactiveTimer: 5
+  radius: 6
+  accel: 120
